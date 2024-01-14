@@ -1,0 +1,29 @@
+{
+  "displayedName": "Tavros",
+  "description": "",
+  "tribes": [
+    "HS.Troll",
+    "HS.Prospit",
+    "Hooved"
+  ],
+  "baseAttack": 1,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 3,
+  "traits": [],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Squirrel King"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_tavros",
+  "texture": "card_HS_tavros.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

@@ -1,0 +1,29 @@
+{
+  "displayedName": "Feferi",
+  "description": "The better fish.",
+  "tribes": [
+    "HS.Troll",
+    "HS.Derse"
+  ],
+  "baseAttack": 2,
+  "baseHealth": 4,
+  "bloodCost": 3,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "Submerge",
+    "TriStrike"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_feferi",
+  "texture": "card_HS_feferi.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

@@ -1,0 +1,29 @@
+{
+  "displayedName": "Jade",
+  "description": "You can't pin her down.",
+  "tribes": [
+    "HS.Kid",
+    "HS.Prospit",
+    "Canine"
+  ],
+  "baseAttack": 2,
+  "baseHealth": 1,
+  "bloodCost": 1,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "Flying"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_jade",
+  "texture": "card_HS_jade.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

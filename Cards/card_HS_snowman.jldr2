@@ -1,0 +1,26 @@
+{
+  "displayedName": "Snowman",
+  "description": "If you kill her, you destroy the universe.",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 8,
+  "traits": [
+    "SatisfiesRingTrial"
+  ],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Annihilation"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_snowman",
+  "texture": "card_HS_snowman.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "Rare"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple"
+}

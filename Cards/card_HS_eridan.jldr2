@@ -1,0 +1,29 @@
+{
+  "displayedName": "Eridan",
+  "description": "The worse fish.",
+  "tribes": [
+    "HS.Troll",
+    "HS.Derse"
+  ],
+  "baseAttack": 3,
+  "baseHealth": 4,
+  "bloodCost": 2,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "Submerge",
+    "DebuffEnemy"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_eridan",
+  "texture": "card_HS_eridan.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

@@ -1,0 +1,28 @@
+{
+  "displayedName": "Terezi",
+  "description": "",
+  "tribes": [
+    "HS.Troll",
+    "HS.Prospit"
+  ],
+  "baseAttack": 2,
+  "baseHealth": 3,
+  "bloodCost": 2,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Flip"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_terezi",
+  "texture": "card_HS_terezi.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

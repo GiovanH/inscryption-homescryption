@@ -1,0 +1,28 @@
+{
+  "displayedName": "Aradiabot",
+  "description": "",
+  "tribes": [
+    "HS.Troll",
+    "HS.Derse"
+  ],
+  "baseAttack": 1,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 3,
+  "traits": [],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Haunter"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_aradiabot",
+  "texture": "card_HS_aradiabot.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

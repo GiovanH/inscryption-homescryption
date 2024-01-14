@@ -1,0 +1,24 @@
+{
+  "displayedName": "Doomed Dave",
+  "description": "",
+  "tribes": [
+    "HS.Kid",
+    "HS.Derse"
+  ],
+  "baseAttack": 2,
+  "baseHealth": 1,
+  "bloodCost": 2,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "DeathShield"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_dave_tail",
+  "texture": "card_HS_dave_tail.png",
+  "metaCategories": [
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

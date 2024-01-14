@@ -1,0 +1,22 @@
+{
+  "displayedName": "June",
+  "description": "",
+  "tribes": [
+    "HS.Kid",
+    "HS.Prospit"
+  ],
+  "baseAttack": 2,
+  "baseHealth": 3,
+  "bloodCost": 3,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [],
+  "modPrefix": "HS",
+  "name": "HS_john_june",
+  "texture": "card_HS_john_june.png",
+  "metaCategories": [
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

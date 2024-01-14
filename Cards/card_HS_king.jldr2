@@ -1,0 +1,24 @@
+{
+  "displayedName": "The King",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 3,
+  "baseHealth": 2,
+  "bloodCost": 2,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "AllStrike"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_king",
+  "texture": "card_HS_king.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "Rare"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple"
+}

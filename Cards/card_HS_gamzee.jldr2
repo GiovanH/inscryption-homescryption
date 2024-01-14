@@ -1,0 +1,29 @@
+{
+  "displayedName": "Gamzee",
+  "description": "A wildcard, this one.",
+  "tribes": [
+    "HS.Troll",
+    "HS.Derse"
+  ],
+  "baseAttack": 2,
+  "baseHealth": 2,
+  "bloodCost": 2,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "RandomAbility",
+    "GainAttackOnKill"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_gamzee",
+  "texture": "card_HS_gamzee.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

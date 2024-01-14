@@ -1,0 +1,32 @@
+{
+  "displayedName": "Vriska",
+  "description": "The center of attention.",
+  "tribes": [
+    "HS.Troll",
+    "HS.Prospit",
+    "nevernamed.inscryption.sigils.Arachnid"
+  ],
+  "baseAttack": 3,
+  "baseHealth": 3,
+  "bloodCost": 2,
+  "bonesCost": 0,
+  "traits": [
+    "KillsSurvivors"
+  ],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Tempting Target",
+    "nevernamed.inscryption.sigils.Web"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_vriska",
+  "texture": "card_HS_vriska.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

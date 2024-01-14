@@ -1,0 +1,29 @@
+{
+  "displayedName": "Nepeta",
+  "description": "What's better than a cat?",
+  "tribes": [
+    "HS.Troll",
+    "HS.Derse"
+  ],
+  "baseAttack": 1,
+  "baseHealth": 1,
+  "bloodCost": 1,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Flighty",
+    "Sacrificial"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_nepeta",
+  "texture": "card_HS_nepeta.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

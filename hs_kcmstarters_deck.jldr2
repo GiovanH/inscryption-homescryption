@@ -1,0 +1,24 @@
+{
+  "decks": [
+    {
+      "name": "Betas",
+      "cards": [
+        "HS_john",
+        "HS_jade",
+        "HS_dave",
+        "HS_rose"
+      ],
+      "iconTexture": "default.png"
+    },
+    {
+      "name": "Alphas",
+      "cards": [
+        "HS_dirk",
+        "HS_roxy",
+        "HS_jane",
+        "HS_jake"
+      ],
+      "iconTexture": "default.png"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "tribes": [
+    {
+      "name": "Kid",
+      "guid": "HS",
+      "tribeIcon": "tribeicon_kid.png",
+      "appearInTribeChoices": true
+    },
+    {
+      "name": "Prospit",
+      "guid": "HS",
+      "tribeIcon": "tribeicon_prospit.png",
+      "appearInTribeChoices": true
+    },
+    {
+      "name": "Derse",
+      "guid": "HS",
+      "tribeIcon": "tribeicon_derse.png",
+      "appearInTribeChoices": true
+    },
+    {
+      "name": "Troll",
+      "guid": "HS",
+      "tribeIcon": "tribeicon_troll.png",
+      "appearInTribeChoices": true
+    }
+  ]
+}

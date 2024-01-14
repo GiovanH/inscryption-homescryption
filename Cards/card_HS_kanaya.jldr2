@@ -1,0 +1,28 @@
+{
+  "displayedName": "Kanaya",
+  "description": "",
+  "tribes": [
+    "HS.Troll",
+    "HS.Prospit"
+  ],
+  "baseAttack": 2,
+  "baseHealth": 3,
+  "bloodCost": 2,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "ActivatedHeal"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_kanaya",
+  "texture": "card_HS_kanaya.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

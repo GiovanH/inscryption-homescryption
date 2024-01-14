@@ -1,0 +1,22 @@
+{
+  "displayedName": "Imp",
+  "description": "Just a little guy. What will you make him into?",
+  "tribes": [],
+  "baseAttack": 0,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [],
+  "modPrefix": "HS",
+  "name": "HS_imp",
+  "texture": "card_HS_imp.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "Rare"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple"
+}

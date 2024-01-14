@@ -1,0 +1,28 @@
+{
+  "displayedName": "Roxy",
+  "description": "A sharp shooter.",
+  "tribes": [
+    "HS.Kid",
+    "HS.Derse"
+  ],
+  "baseAttack": 2,
+  "baseHealth": 1,
+  "bloodCost": 2,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "Sniper"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_roxy",
+  "texture": "card_HS_roxy.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

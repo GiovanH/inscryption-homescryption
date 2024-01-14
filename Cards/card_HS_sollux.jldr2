@@ -1,0 +1,29 @@
+{
+  "displayedName": "Sollux",
+  "description": "A powerful psychic. But you just get bees.",
+  "tribes": [
+    "HS.Troll",
+    "HS.Derse",
+    "HS.Prospit"
+  ],
+  "baseAttack": 1,
+  "baseHealth": 2,
+  "bloodCost": 0,
+  "bonesCost": 2,
+  "traits": [],
+  "abilities": [
+    "BeesOnHit"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_sollux",
+  "texture": "card_HS_sollux.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

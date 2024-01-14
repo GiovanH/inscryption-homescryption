@@ -1,0 +1,31 @@
+{
+  "displayedName": "Aradia",
+  "description": "The archaeologist.",
+  "tribes": [
+    "HS.Troll",
+    "HS.Derse"
+  ],
+  "baseAttack": 1,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 3,
+  "traits": [
+    "Goat"
+  ],
+  "abilities": [
+    "BoneDigger",
+    "OpponentBones"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_aradia",
+  "texture": "card_HS_aradia.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

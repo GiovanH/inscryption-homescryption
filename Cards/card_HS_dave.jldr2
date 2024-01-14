@@ -1,0 +1,30 @@
+{
+  "displayedName": "Dave",
+  "description": "Dead Daves can be your friend.",
+  "tribes": [
+    "HS.Kid",
+    "HS.Derse"
+  ],
+  "baseAttack": 2,
+  "baseHealth": 1,
+  "bloodCost": 2,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "TailOnHit"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_dave",
+  "texture": "card_HS_dave.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "tailName": "HS_dave_tail",
+  "tailLostPortrait": "card_HS_dave_tail.png"
+}

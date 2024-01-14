@@ -1,0 +1,30 @@
+{
+  "displayedName": "John",
+  "description": "As default as it gets.",
+  "tribes": [
+    "HS.Kid",
+    "HS.Prospit"
+  ],
+  "baseAttack": 1,
+  "baseHealth": 1,
+  "bloodCost": 1,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "Evolve"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_john",
+  "texture": "card_HS_john.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "evolveIntoName": "HS_john_june",
+  "evolveTurns": 1
+}

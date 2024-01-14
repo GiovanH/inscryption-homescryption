@@ -1,0 +1,29 @@
+{
+  "displayedName": "Doc Scratch",
+  "description": "A harbinger.",
+  "tribes": [],
+  "baseAttack": 0,
+  "baseHealth": 2,
+  "bloodCost": 3,
+  "bonesCost": 0,
+  "traits": [
+    "SatisfiesRingTrial"
+  ],
+  "abilities": [
+    "IceCube"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_scratch",
+  "texture": "card_HS_scratch.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "Rare"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground",
+    "DefaultEmission"
+  ],
+  "cardComplexity": "Simple",
+  "emissionTexture": "card_HS_scratch.png",
+  "iceCubeName": "HS_english"
+}

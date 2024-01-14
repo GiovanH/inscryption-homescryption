@@ -1,0 +1,28 @@
+{
+  "displayedName": "Rose",
+  "description": "Watch for the quills on this one.",
+  "tribes": [
+    "HS.Kid",
+    "HS.Derse"
+  ],
+  "baseAttack": 1,
+  "baseHealth": 2,
+  "bloodCost": 0,
+  "bonesCost": 3,
+  "traits": [],
+  "abilities": [
+    "Sharp"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_rose",
+  "texture": "card_HS_rose.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

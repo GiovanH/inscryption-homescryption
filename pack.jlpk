@@ -1,0 +1,6 @@
+{
+  "Title": "Homescrypt",
+  "Description": "Homestuck card pack",
+  "ModPrefix": "HS",
+  "ValidFor": ["LeshyPack"]
+}

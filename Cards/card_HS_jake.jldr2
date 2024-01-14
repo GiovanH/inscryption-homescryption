@@ -1,0 +1,28 @@
+{
+  "displayedName": "Jake",
+  "description": "Hero, or joke?",
+  "tribes": [
+    "HS.Kid",
+    "HS.Prospit"
+  ],
+  "baseAttack": 1,
+  "baseHealth": 2,
+  "bloodCost": 1,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "GuardDog"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_jake",
+  "texture": "card_HS_jake.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

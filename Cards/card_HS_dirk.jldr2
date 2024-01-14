@@ -1,0 +1,28 @@
+{
+  "displayedName": "Dirk",
+  "description": "Can't keep him down.",
+  "tribes": [
+    "HS.Kid",
+    "HS.Derse"
+  ],
+  "baseAttack": 2,
+  "baseHealth": 1,
+  "bloodCost": 1,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "DrawCopyOnDeath"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_dirk",
+  "texture": "card_HS_dirk.png",
+  "metaCategories": [
+    "GBCPlayable",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}
