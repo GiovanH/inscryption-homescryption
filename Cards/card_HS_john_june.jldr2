@@ -7,7 +7,7 @@
   ],
   "baseAttack": 2,
   "baseHealth": 3,
-  "bloodCost": 3,
+  "bloodCost": 2,
   "bonesCost": 0,
   "traits": [],
   "abilities": [],

@@ -4,7 +4,7 @@
   "tribes": [],
   "baseAttack": 2,
   "baseHealth": 4,
-  "bloodCost": 0,
+  "bloodCost": 4,
   "bonesCost": 0,
   "traits": [],
   "abilities": [

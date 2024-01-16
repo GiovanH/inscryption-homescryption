@@ -3,7 +3,8 @@
   "description": "The archaeologist.",
   "tribes": [
     "HS.Troll",
-    "HS.Derse"
+    "HS.Derse",
+    "Hooved"
   ],
   "baseAttack": 1,
   "baseHealth": 1,

@@ -9,7 +9,9 @@
   "baseHealth": 1,
   "bloodCost": 0,
   "bonesCost": 3,
-  "traits": [],
+  "traits": [
+    "Goat"
+  ],
   "abilities": [
     "nevernamed.inscryption.sigils.Haunter"
   ],
