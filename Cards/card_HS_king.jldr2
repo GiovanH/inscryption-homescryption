@@ -3,7 +3,7 @@
   "description": "",
   "tribes": [],
   "baseAttack": 3,
-  "baseHealth": 2,
+  "baseHealth": 4,
   "bloodCost": 2,
   "bonesCost": 0,
   "traits": [],
@@ -12,10 +12,13 @@
   ],
   "modPrefix": "HS",
   "name": "HS_king",
+  "defaultEvolutionName": "God The King",
   "texture": "card_HS_king.png",
+  "pixelTexture": "card_HS_king_pixelTexture.png",
+  "temple": "Nature",
   "metaCategories": [
-    "GBCPlayable",
-    "Rare"
+    "Rare",
+    "GBCPlayable"
   ],
   "appearanceBehaviour": [
     "RareCardBackground"

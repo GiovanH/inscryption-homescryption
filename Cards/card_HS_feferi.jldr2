@@ -5,7 +5,7 @@
     "HS.Troll",
     "HS.Derse"
   ],
-  "baseAttack": 2,
+  "baseAttack": 1,
   "baseHealth": 4,
   "bloodCost": 3,
   "bonesCost": 0,
@@ -16,13 +16,16 @@
   ],
   "modPrefix": "HS",
   "name": "HS_feferi",
+  "defaultEvolutionName": "God Feferi",
   "texture": "card_HS_feferi.png",
+  "pixelTexture": "card_HS_feferi_pixelTexture.png",
+  "temple": "Nature",
   "metaCategories": [
-    "GBCPlayable",
     "ChoiceNode",
     "Part3Random",
     "TraderOffer",
-    "GBCPack"
+    "GBCPack",
+    "GBCPlayable"
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple"

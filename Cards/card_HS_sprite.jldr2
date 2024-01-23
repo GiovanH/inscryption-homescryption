@@ -12,10 +12,13 @@
   ],
   "modPrefix": "HS",
   "name": "HS_sprite",
+  "defaultEvolutionName": "God Sprite",
   "texture": "card_HS_sprite.png",
+  "pixelTexture": "card_HS_sprite_pixelTexture.png",
+  "temple": "Nature",
   "metaCategories": [
-    "GBCPlayable",
-    "Rare"
+    "Rare",
+    "GBCPlayable"
   ],
   "appearanceBehaviour": [
     "RareCardBackground"

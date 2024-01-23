@@ -4,7 +4,7 @@
   "tribes": [
     "HS.Troll",
     "HS.Prospit",
-    "nevernamed.inscryption.sigils.Arachnid"
+    "NN.Arachnid"
   ],
   "baseAttack": 3,
   "baseHealth": 3,
@@ -19,13 +19,16 @@
   ],
   "modPrefix": "HS",
   "name": "HS_vriska",
+  "defaultEvolutionName": "God Vriska",
   "texture": "card_HS_vriska.png",
+  "pixelTexture": "card_HS_vriska_pixelTexture.png",
+  "temple": "Nature",
   "metaCategories": [
-    "GBCPlayable",
     "ChoiceNode",
     "Part3Random",
     "TraderOffer",
-    "GBCPack"
+    "GBCPack",
+    "GBCPlayable"
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple"

@@ -7,13 +7,19 @@
   "bloodCost": 2,
   "bonesCost": 0,
   "traits": [],
-  "abilities": [],
+  "abilities": [
+    "DoubleStrike",
+    "nevernamed.inscryption.sigils.Lonesome"
+  ],
   "modPrefix": "HS",
   "name": "HS_jack",
+  "defaultEvolutionName": "God Jack",
   "texture": "card_HS_jack.png",
+  "pixelTexture": "card_HS_jack_pixelTexture.png",
+  "temple": "Nature",
   "metaCategories": [
-    "GBCPlayable",
-    "Rare"
+    "Rare",
+    "GBCPlayable"
   ],
   "appearanceBehaviour": [
     "RareCardBackground"

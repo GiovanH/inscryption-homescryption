@@ -11,18 +11,21 @@
   "bonesCost": 0,
   "traits": [],
   "abilities": [
-    "nevernamed.inscryption.sigils.Flighty",
-    "Sacrificial"
+    "Sacrificial",
+    "nevernamed.inscryption.sigils.Flighty"
   ],
   "modPrefix": "HS",
   "name": "HS_nepeta",
+  "defaultEvolutionName": "God Nepeta",
   "texture": "card_HS_nepeta.png",
+  "pixelTexture": "card_HS_nepeta_pixelTexture.png",
+  "temple": "Nature",
   "metaCategories": [
-    "GBCPlayable",
     "ChoiceNode",
     "Part3Random",
     "TraderOffer",
-    "GBCPack"
+    "GBCPack",
+    "GBCPlayable"
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple"

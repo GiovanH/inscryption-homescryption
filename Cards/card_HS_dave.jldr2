@@ -15,13 +15,16 @@
   ],
   "modPrefix": "HS",
   "name": "HS_dave",
+  "defaultEvolutionName": "God Dave",
   "texture": "card_HS_dave.png",
+  "pixelTexture": "card_HS_dave_pixelTexture.png",
+  "temple": "Nature",
   "metaCategories": [
-    "GBCPlayable",
     "ChoiceNode",
     "Part3Random",
     "TraderOffer",
-    "GBCPack"
+    "GBCPack",
+    "GBCPlayable"
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple",

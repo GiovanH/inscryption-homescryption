@@ -2,7 +2,7 @@
   "displayedName": "Imp",
   "description": "Just a little guy. What will you make him into?",
   "tribes": [],
-  "baseAttack": 0,
+  "baseAttack": 1,
   "baseHealth": 1,
   "bloodCost": 0,
   "bonesCost": 0,
@@ -10,11 +10,11 @@
   "abilities": [],
   "modPrefix": "HS",
   "name": "HS_imp",
+  "defaultEvolutionName": "God Imp",
   "texture": "card_HS_imp.png",
-  "metaCategories": [
-    "GBCPlayable",
-    "Rare"
-  ],
+  "pixelTexture": "card_HS_imp_pixelTexture.png",
+  "temple": "Nature",
+  "metaCategories": [],
   "appearanceBehaviour": [
     "RareCardBackground"
   ],

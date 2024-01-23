@@ -13,10 +13,12 @@
   "abilities": [],
   "modPrefix": "HS",
   "name": "HS_john_june",
+  "defaultEvolutionName": "God June",
   "texture": "card_HS_john_june.png",
-  "metaCategories": [
-    "GBCPlayable"
-  ],
+  "pixelTexture": "card_HS_john_june_pixelTexture.png",
+  "temple": "Nature",
+  "metaCategories": [],
   "appearanceBehaviour": [],
-  "cardComplexity": "Simple"
+  "cardComplexity": "Simple",
+  "emissionTexture": "card_HS_john_june_emissionTexture.png"
 }

@@ -11,14 +11,16 @@
   "bonesCost": 0,
   "traits": [],
   "abilities": [
-    "DeathShield"
+    "DeathShield",
+    "Brittle"
   ],
   "modPrefix": "HS",
   "name": "HS_dave_tail",
+  "defaultEvolutionName": "God Doomed Dave",
   "texture": "card_HS_dave_tail.png",
-  "metaCategories": [
-    "GBCPlayable"
-  ],
+  "pixelTexture": "card_HS_dave_tail_pixelTexture.png",
+  "temple": "Nature",
+  "metaCategories": [],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple"
 }

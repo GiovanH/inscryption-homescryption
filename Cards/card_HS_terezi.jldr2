@@ -15,13 +15,16 @@
   ],
   "modPrefix": "HS",
   "name": "HS_terezi",
+  "defaultEvolutionName": "God Terezi",
   "texture": "card_HS_terezi.png",
+  "pixelTexture": "card_HS_terezi_pixelTexture.png",
+  "temple": "Nature",
   "metaCategories": [
-    "GBCPlayable",
     "ChoiceNode",
     "Part3Random",
     "TraderOffer",
-    "GBCPack"
+    "GBCPack",
+    "GBCPlayable"
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple"

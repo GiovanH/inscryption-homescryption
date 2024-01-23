@@ -15,13 +15,16 @@
   ],
   "modPrefix": "HS",
   "name": "HS_jake",
+  "defaultEvolutionName": "God Jake",
   "texture": "card_HS_jake.png",
+  "pixelTexture": "card_HS_jake_pixelTexture.png",
+  "temple": "Nature",
   "metaCategories": [
-    "GBCPlayable",
     "ChoiceNode",
     "Part3Random",
     "TraderOffer",
-    "GBCPack"
+    "GBCPack",
+    "GBCPlayable"
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple"

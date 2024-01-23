@@ -15,13 +15,16 @@
   ],
   "modPrefix": "HS",
   "name": "HS_roxy",
+  "defaultEvolutionName": "God Roxy",
   "texture": "card_HS_roxy.png",
+  "pixelTexture": "card_HS_roxy_pixelTexture.png",
+  "temple": "Nature",
   "metaCategories": [
-    "GBCPlayable",
     "ChoiceNode",
     "Part3Random",
     "TraderOffer",
-    "GBCPack"
+    "GBCPack",
+    "GBCPlayable"
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple"

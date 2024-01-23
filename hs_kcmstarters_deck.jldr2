@@ -19,6 +19,30 @@
         "HS_jake"
       ],
       "iconTexture": "default.png"
+    },
+    {
+      "name": "Blue",
+      "cards": [
+        "HS_aradia",
+        "HS_sollux",
+        "HS_nepeta",
+        "HS_equius",
+        "HS_eridan",
+        "HS_feferi"
+      ],
+      "iconTexture": "default.png"
+    },
+    {
+      "name": "Red",
+      "cards": [
+        "HS_tavros",
+        "HS_karkat",
+        "HS_kanaya",
+        "HS_terezi",
+        "HS_vriska",
+        "HS_gamzee"
+      ],
+      "iconTexture": "default.png"
     }
   ]
 }

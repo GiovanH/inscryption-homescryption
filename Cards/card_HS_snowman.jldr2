@@ -14,10 +14,13 @@
   ],
   "modPrefix": "HS",
   "name": "HS_snowman",
+  "defaultEvolutionName": "God Snowman",
   "texture": "card_HS_snowman.png",
+  "pixelTexture": "card_HS_snowman_pixelTexture.png",
+  "temple": "Nature",
   "metaCategories": [
-    "GBCPlayable",
-    "Rare"
+    "Rare",
+    "GBCPlayable"
   ],
   "appearanceBehaviour": [
     "RareCardBackground"

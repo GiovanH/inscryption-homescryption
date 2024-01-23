@@ -12,17 +12,21 @@
   "bonesCost": 2,
   "traits": [],
   "abilities": [
-    "BeesOnHit"
+    "BeesOnHit",
+    "DoubleDeath"
   ],
   "modPrefix": "HS",
   "name": "HS_sollux",
+  "defaultEvolutionName": "God Sollux",
   "texture": "card_HS_sollux.png",
+  "pixelTexture": "card_HS_sollux_pixelTexture.png",
+  "temple": "Nature",
   "metaCategories": [
-    "GBCPlayable",
     "ChoiceNode",
     "Part3Random",
     "TraderOffer",
-    "GBCPack"
+    "GBCPack",
+    "GBCPlayable"
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple"

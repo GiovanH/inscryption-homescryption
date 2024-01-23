@@ -7,7 +7,7 @@
     "Hooved"
   ],
   "baseAttack": 1,
-  "baseHealth": 1,
+  "baseHealth": 2,
   "bloodCost": 0,
   "bonesCost": 3,
   "traits": [
@@ -19,13 +19,16 @@
   ],
   "modPrefix": "HS",
   "name": "HS_aradia",
+  "defaultEvolutionName": "God Aradia",
   "texture": "card_HS_aradia.png",
+  "pixelTexture": "card_HS_aradia_pixelTexture.png",
+  "temple": "Nature",
   "metaCategories": [
-    "GBCPlayable",
     "ChoiceNode",
     "Part3Random",
     "TraderOffer",
-    "GBCPack"
+    "GBCPack",
+    "GBCPlayable"
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple"

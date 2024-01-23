@@ -16,13 +16,16 @@
   ],
   "modPrefix": "HS",
   "name": "HS_gamzee",
+  "defaultEvolutionName": "God Gamzee",
   "texture": "card_HS_gamzee.png",
+  "pixelTexture": "card_HS_gamzee_pixelTexture.png",
+  "temple": "Nature",
   "metaCategories": [
-    "GBCPlayable",
     "ChoiceNode",
     "Part3Random",
     "TraderOffer",
-    "GBCPack"
+    "GBCPack",
+    "GBCPlayable"
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple"

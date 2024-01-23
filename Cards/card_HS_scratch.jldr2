@@ -7,17 +7,22 @@
   "bloodCost": 3,
   "bonesCost": 0,
   "traits": [
+    "Goat",
     "SatisfiesRingTrial"
   ],
   "abilities": [
-    "IceCube"
+    "IceCube",
+    "nevernamed.inscryption.sigils.Abstain"
   ],
   "modPrefix": "HS",
   "name": "HS_scratch",
+  "defaultEvolutionName": "God Doc Scratch",
   "texture": "card_HS_scratch.png",
+  "pixelTexture": "card_HS_scratch_pixelTexture.png",
+  "temple": "Nature",
   "metaCategories": [
-    "GBCPlayable",
-    "Rare"
+    "Rare",
+    "GBCPlayable"
   ],
   "appearanceBehaviour": [
     "RareCardBackground",
@@ -25,5 +30,5 @@
   ],
   "cardComplexity": "Simple",
   "emissionTexture": "card_HS_scratch.png",
-  "iceCubeName": "HS_english"
+  "iceCubeName": "HS_lordenglish"
 }

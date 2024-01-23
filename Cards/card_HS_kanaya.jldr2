@@ -11,17 +11,21 @@
   "bonesCost": 0,
   "traits": [],
   "abilities": [
-    "ActivatedHeal"
+    "nevernamed.inscryption.sigils.Bandage Weaver",
+    "nevernamed.inscryption.sigils.Vampiric"
   ],
   "modPrefix": "HS",
   "name": "HS_kanaya",
+  "defaultEvolutionName": "God Kanaya",
   "texture": "card_HS_kanaya.png",
+  "pixelTexture": "card_HS_kanaya_pixelTexture.png",
+  "temple": "Nature",
   "metaCategories": [
-    "GBCPlayable",
     "ChoiceNode",
     "Part3Random",
     "TraderOffer",
-    "GBCPack"
+    "GBCPack",
+    "GBCPlayable"
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple"
