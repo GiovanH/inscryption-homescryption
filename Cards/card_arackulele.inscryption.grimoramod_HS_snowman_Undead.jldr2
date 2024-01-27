@@ -1,0 +1,30 @@
+{
+  "displayedName": "Snowman",
+  "description": "If you kill her, you destroy the universe.",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 1,
+  "traits": [
+    "SatisfiesRingTrial"
+  ],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Annihilation"
+  ],
+  "modPrefix": "arackulele.inscryption.grimoramod_HS",
+  "name": "arackulele.inscryption.grimoramod_HS_snowman",
+  "defaultEvolutionName": "God Snowman",
+  "texture": "card_HS_snowman.png",
+  "pixelTexture": "card_HS_snowman_pixelTexture.png",
+  "temple": "Undead",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple",
+  "energyCost": 9
+}

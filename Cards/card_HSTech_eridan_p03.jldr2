@@ -1,0 +1,30 @@
+{
+  "displayedName": "Eridan",
+  "description": "The worse fish.",
+  "tribes": [],
+  "baseAttack": 3,
+  "baseHealth": 3,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "Submerge",
+    "nevernamed.inscryption.sigils.Antimagic"
+  ],
+  "modPrefix": "HSTech",
+  "name": "HSTech_eridan",
+  "defaultEvolutionName": "God Eridan",
+  "texture": "card_HS_eridan.png",
+  "pixelTexture": "card_HS_eridan_pixelTexture.png",
+  "temple": "Tech",
+  "metaCategories": [
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "energyCost": 3
+}

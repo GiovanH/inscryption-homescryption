@@ -1,0 +1,31 @@
+{
+  "displayedName": "Tavros",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Squirrel King"
+  ],
+  "modPrefix": "HSWizard",
+  "name": "HSWizard_tavros",
+  "defaultEvolutionName": "God Tavros",
+  "texture": "card_HS_tavros.png",
+  "pixelTexture": "card_HS_tavros_pixelTexture.png",
+  "temple": "Wizard",
+  "metaCategories": [
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "gemsCost": [
+    "Orange"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "displayedName": "Lord English",
+  "description": "The eight-ball.",
+  "tribes": [],
+  "baseAttack": 2,
+  "baseHealth": 8,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "AllStrike",
+    "Deathtouch"
+  ],
+  "modPrefix": "HSTech",
+  "name": "HSTech_lordenglish",
+  "defaultEvolutionName": "God Lord English",
+  "texture": "card_HS_lordenglish.png",
+  "pixelTexture": "card_HS_lordenglish_pixelTexture.png",
+  "temple": "Tech",
+  "metaCategories": [],
+  "appearanceBehaviour": [
+    "GoldEmission"
+  ],
+  "cardComplexity": "Simple",
+  "energyCost": 5
+}

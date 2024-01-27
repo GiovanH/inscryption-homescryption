@@ -1,0 +1,29 @@
+{
+  "displayedName": "Jade",
+  "description": "You can't pin her down.",
+  "tribes": [],
+  "baseAttack": 2,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "Flying"
+  ],
+  "modPrefix": "HSTech",
+  "name": "HSTech_jade",
+  "defaultEvolutionName": "God Jade",
+  "texture": "card_HS_jade.png",
+  "pixelTexture": "card_HS_jade_pixelTexture.png",
+  "temple": "Tech",
+  "metaCategories": [
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "energyCost": 2
+}

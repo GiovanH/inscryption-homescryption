@@ -1,0 +1,31 @@
+{
+  "displayedName": "Aradiabot",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 1,
+  "traits": [
+    "Goat"
+  ],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Haunter"
+  ],
+  "modPrefix": "arackulele.inscryption.grimoramod_HS",
+  "name": "arackulele.inscryption.grimoramod_HS_aradiabot",
+  "defaultEvolutionName": "God Aradiabot",
+  "texture": "card_HS_aradiabot.png",
+  "pixelTexture": "card_HS_aradiabot_pixelTexture.png",
+  "temple": "Undead",
+  "metaCategories": [
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "energyCost": 4
+}

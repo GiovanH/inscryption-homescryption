@@ -1,0 +1,27 @@
+{
+  "displayedName": "Hal",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 2,
+  "baseHealth": 2,
+  "bloodCost": 0,
+  "bonesCost": 3,
+  "traits": [],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Sturdy"
+  ],
+  "modPrefix": "arackulele.inscryption.grimoramod_HS",
+  "name": "arackulele.inscryption.grimoramod_HS_hal",
+  "defaultEvolutionName": "God Hal",
+  "texture": "card_HS_hal.png",
+  "pixelTexture": "card_HS_hal_pixelTexture.png",
+  "temple": "Undead",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple"
+}

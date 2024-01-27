@@ -1,0 +1,28 @@
+{
+  "displayedName": "Sprite",
+  "description": "Trades powers around like they're nothing.",
+  "tribes": [],
+  "baseAttack": 0,
+  "baseHealth": 2,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Haunter"
+  ],
+  "modPrefix": "HSTech",
+  "name": "HSTech_sprite",
+  "defaultEvolutionName": "God Sprite",
+  "texture": "card_HS_sprite.png",
+  "pixelTexture": "card_HS_sprite_pixelTexture.png",
+  "temple": "Tech",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple",
+  "energyCost": 2
+}

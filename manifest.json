@@ -4,11 +4,10 @@
 	"website_url": "TBD",
 	"description": "Homestuck card pack for Inscryption",
     "dependencies": [
-        "BepInEx-BepInExPack_Inscryption-5.4.1902",
-        "API_dev-API-2.4.1",
         "Infiniscryption-Pack_Management_API-1.1.7",
         "MADH95Mods-JSONCardLoader-2.2.0",
         "Nevernamed-Nevernameds_Sigilarium-1.14.1",
-        "bitty45-BittysSigils-2.1.2"
+        "bitty45-BittysSigils-2.1.2",
+        "SpecialAPI-Configurable_Emissions_and_Backgrounds-1.0.0"
     ]
 }

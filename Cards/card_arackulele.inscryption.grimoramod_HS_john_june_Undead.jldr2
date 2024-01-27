@@ -1,0 +1,21 @@
+{
+  "displayedName": "June",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 2,
+  "baseHealth": 3,
+  "bloodCost": 0,
+  "bonesCost": 3,
+  "traits": [],
+  "abilities": [],
+  "modPrefix": "arackulele.inscryption.grimoramod_HS",
+  "name": "arackulele.inscryption.grimoramod_HS_john_june",
+  "defaultEvolutionName": "God June",
+  "texture": "card_HS_john_june.png",
+  "pixelTexture": "card_HS_john_june_pixelTexture.png",
+  "temple": "Undead",
+  "metaCategories": [],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "emissionTexture": "card_HS_john_june_emissionTexture.png"
+}

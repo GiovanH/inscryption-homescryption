@@ -1,0 +1,23 @@
+{
+  "displayedName": "Imp",
+  "description": "Just a little guy. What will you make him into?",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [],
+  "modPrefix": "HSWizard",
+  "name": "HSWizard_imp",
+  "defaultEvolutionName": "God Imp",
+  "texture": "card_HS_imp.png",
+  "pixelTexture": "card_HS_imp_pixelTexture.png",
+  "temple": "Wizard",
+  "metaCategories": [],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple",
+  "gemsCost": []
+}

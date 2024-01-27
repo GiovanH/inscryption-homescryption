@@ -1,0 +1,33 @@
+{
+  "displayedName": "Dave",
+  "description": "Dead Daves can be your friend.",
+  "tribes": [],
+  "baseAttack": 2,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "TailOnHit"
+  ],
+  "modPrefix": "HSWizard",
+  "name": "HSWizard_dave",
+  "defaultEvolutionName": "God Dave",
+  "texture": "card_HS_dave.png",
+  "pixelTexture": "card_HS_dave_pixelTexture.png",
+  "temple": "Wizard",
+  "metaCategories": [
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "gemsCost": [
+    "Blue"
+  ],
+  "tailName": "HS_dave_tail",
+  "tailLostPortrait": "card_HS_dave_tail.png"
+}

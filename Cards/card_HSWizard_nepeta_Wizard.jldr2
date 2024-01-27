@@ -1,0 +1,32 @@
+{
+  "displayedName": "Nepeta",
+  "description": "What's better than a cat?",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Cute",
+    "nevernamed.inscryption.sigils.Flighty"
+  ],
+  "modPrefix": "HSWizard",
+  "name": "HSWizard_nepeta",
+  "defaultEvolutionName": "God Nepeta",
+  "texture": "card_HS_nepeta.png",
+  "pixelTexture": "card_HS_nepeta_pixelTexture.png",
+  "temple": "Wizard",
+  "metaCategories": [
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "gemsCost": [
+    "Blue"
+  ]
+}

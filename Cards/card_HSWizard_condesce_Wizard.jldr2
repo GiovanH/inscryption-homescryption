@@ -1,0 +1,31 @@
+{
+  "displayedName": "The Condesce",
+  "description": "The unkillable sea-witch.",
+  "tribes": [],
+  "baseAttack": 3,
+  "baseHealth": 2,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "Submerge",
+    "DrawCopyOnDeath"
+  ],
+  "modPrefix": "HSWizard",
+  "name": "HSWizard_condesce",
+  "defaultEvolutionName": "God The Condesce",
+  "texture": "card_HS_condesce.png",
+  "pixelTexture": "card_HS_condesce_pixelTexture.png",
+  "temple": "Wizard",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple",
+  "gemsCost": [
+    "Green"
+  ]
+}

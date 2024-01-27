@@ -1,0 +1,34 @@
+{
+  "displayedName": "Snowman",
+  "description": "If you kill her, you destroy the universe.",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [
+    "SatisfiesRingTrial"
+  ],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Annihilation"
+  ],
+  "modPrefix": "HSWizard",
+  "name": "HSWizard_snowman",
+  "defaultEvolutionName": "God Snowman",
+  "texture": "card_HS_snowman.png",
+  "pixelTexture": "card_HS_snowman_pixelTexture.png",
+  "temple": "Wizard",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple",
+  "gemsCost": [
+    "Blue",
+    "Orange",
+    "Green"
+  ]
+}

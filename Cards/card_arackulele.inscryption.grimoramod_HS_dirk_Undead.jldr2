@@ -1,0 +1,28 @@
+{
+  "displayedName": "Dirk",
+  "description": "Can't keep him down.",
+  "tribes": [],
+  "baseAttack": 2,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 2,
+  "traits": [],
+  "abilities": [
+    "DrawCopyOnDeath"
+  ],
+  "modPrefix": "arackulele.inscryption.grimoramod_HS",
+  "name": "arackulele.inscryption.grimoramod_HS_dirk",
+  "defaultEvolutionName": "God Dirk",
+  "texture": "card_HS_dirk.png",
+  "pixelTexture": "card_HS_dirk_pixelTexture.png",
+  "temple": "Undead",
+  "metaCategories": [
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

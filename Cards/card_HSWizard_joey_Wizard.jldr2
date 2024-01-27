@@ -1,0 +1,31 @@
+{
+  "displayedName": "Joey",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 2,
+  "baseHealth": 4,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "Tutor"
+  ],
+  "modPrefix": "HSWizard",
+  "name": "HSWizard_joey",
+  "defaultEvolutionName": "God Joey",
+  "texture": "card_HS_joey.png",
+  "pixelTexture": "card_HS_joey_pixelTexture.png",
+  "temple": "Wizard",
+  "metaCategories": [
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "gemsCost": [
+    "Green"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "displayedName": "Lil' Seb",
+  "description": "A little buddy.",
+  "tribes": [],
+  "baseAttack": 2,
+  "baseHealth": 2,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [
+    "Pelt"
+  ],
+  "abilities": [
+    "Strafe",
+    "RandomConsumable"
+  ],
+  "modPrefix": "HSTech",
+  "name": "HSTech_seb",
+  "defaultEvolutionName": "God Lil' Seb",
+  "texture": "card_HS_seb.png",
+  "pixelTexture": "card_HS_seb_pixelTexture.png",
+  "temple": "Tech",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "TerrainBackground"
+  ],
+  "cardComplexity": "Simple",
+  "energyCost": 3
+}

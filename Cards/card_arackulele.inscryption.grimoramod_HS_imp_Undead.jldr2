@@ -1,0 +1,22 @@
+{
+  "displayedName": "Imp",
+  "description": "Just a little guy. What will you make him into?",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 1,
+  "traits": [],
+  "abilities": [],
+  "modPrefix": "arackulele.inscryption.grimoramod_HS",
+  "name": "arackulele.inscryption.grimoramod_HS_imp",
+  "defaultEvolutionName": "God Imp",
+  "texture": "card_HS_imp.png",
+  "pixelTexture": "card_HS_imp_pixelTexture.png",
+  "temple": "Undead",
+  "metaCategories": [],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple"
+}

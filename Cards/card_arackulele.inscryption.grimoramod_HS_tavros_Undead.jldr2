@@ -1,0 +1,29 @@
+{
+  "displayedName": "Tavros",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 1,
+  "traits": [],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Squirrel King"
+  ],
+  "modPrefix": "arackulele.inscryption.grimoramod_HS",
+  "name": "arackulele.inscryption.grimoramod_HS_tavros",
+  "defaultEvolutionName": "God Tavros",
+  "texture": "card_HS_tavros.png",
+  "pixelTexture": "card_HS_tavros_pixelTexture.png",
+  "temple": "Undead",
+  "metaCategories": [
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "energyCost": 4
+}

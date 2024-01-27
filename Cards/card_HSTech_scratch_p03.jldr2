@@ -4,7 +4,7 @@
   "tribes": [],
   "baseAttack": 0,
   "baseHealth": 2,
-  "bloodCost": 3,
+  "bloodCost": 0,
   "bonesCost": 0,
   "traits": [
     "Goat",
@@ -14,12 +14,12 @@
     "IceCube",
     "nevernamed.inscryption.sigils.Abstain"
   ],
-  "modPrefix": "HS",
-  "name": "HS_scratch",
+  "modPrefix": "HSTech",
+  "name": "HSTech_scratch",
   "defaultEvolutionName": "God Doc Scratch",
   "texture": "card_HS_scratch.png",
   "pixelTexture": "card_HS_scratch_pixelTexture.png",
-  "temple": "Nature",
+  "temple": "Tech",
   "metaCategories": [
     "Rare",
     "GBCPlayable"
@@ -29,6 +29,7 @@
     "spapi.inscryption.configemissions.ConfigurableStatColors"
   ],
   "cardComplexity": "Simple",
+  "energyCost": 4,
   "emissionTexture": "card_HS_scratch.png",
   "iceCubeName": "HS_lordenglish",
   "extensionProperties": {

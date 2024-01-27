@@ -1,0 +1,32 @@
+{
+  "displayedName": "Kanaya",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 2,
+  "baseHealth": 3,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Stim Conduit",
+    "nevernamed.inscryption.sigils.Vampiric"
+  ],
+  "modPrefix": "HSWizard",
+  "name": "HSWizard_kanaya",
+  "defaultEvolutionName": "God Kanaya",
+  "texture": "card_HS_kanaya.png",
+  "pixelTexture": "card_HS_kanaya_pixelTexture.png",
+  "temple": "Wizard",
+  "metaCategories": [
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "gemsCost": [
+    "Orange"
+  ]
+}

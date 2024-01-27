@@ -1,0 +1,30 @@
+{
+  "displayedName": "John",
+  "description": "As default as it gets.",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 2,
+  "traits": [],
+  "abilities": [
+    "Evolve"
+  ],
+  "modPrefix": "arackulele.inscryption.grimoramod_HS",
+  "name": "arackulele.inscryption.grimoramod_HS_john",
+  "defaultEvolutionName": "God John",
+  "texture": "card_HS_john.png",
+  "pixelTexture": "card_HS_john_pixelTexture.png",
+  "temple": "Undead",
+  "metaCategories": [
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "evolveIntoName": "HS_john_june",
+  "evolveTurns": 1
+}

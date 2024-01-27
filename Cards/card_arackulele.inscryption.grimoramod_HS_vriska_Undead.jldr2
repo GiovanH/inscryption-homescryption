@@ -1,0 +1,31 @@
+{
+  "displayedName": "Vriska",
+  "description": "The center of attention.",
+  "tribes": [],
+  "baseAttack": 3,
+  "baseHealth": 3,
+  "bloodCost": 0,
+  "bonesCost": 3,
+  "traits": [
+    "KillsSurvivors"
+  ],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Tempting Target",
+    "nevernamed.inscryption.sigils.Web"
+  ],
+  "modPrefix": "arackulele.inscryption.grimoramod_HS",
+  "name": "arackulele.inscryption.grimoramod_HS_vriska",
+  "defaultEvolutionName": "God Vriska",
+  "texture": "card_HS_vriska.png",
+  "pixelTexture": "card_HS_vriska_pixelTexture.png",
+  "temple": "Undead",
+  "metaCategories": [
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

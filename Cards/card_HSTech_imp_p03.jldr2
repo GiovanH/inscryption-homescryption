@@ -1,0 +1,23 @@
+{
+  "displayedName": "Imp",
+  "description": "Just a little guy. What will you make him into?",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [],
+  "modPrefix": "HSTech",
+  "name": "HSTech_imp",
+  "defaultEvolutionName": "God Imp",
+  "texture": "card_HS_imp.png",
+  "pixelTexture": "card_HS_imp_pixelTexture.png",
+  "temple": "Tech",
+  "metaCategories": [],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple",
+  "energyCost": 1
+}

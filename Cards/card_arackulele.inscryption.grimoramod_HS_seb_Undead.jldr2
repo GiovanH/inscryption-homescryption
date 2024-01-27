@@ -1,0 +1,30 @@
+{
+  "displayedName": "Lil' Seb",
+  "description": "A little buddy.",
+  "tribes": [],
+  "baseAttack": 2,
+  "baseHealth": 2,
+  "bloodCost": 0,
+  "bonesCost": 3,
+  "traits": [
+    "Pelt"
+  ],
+  "abilities": [
+    "Strafe",
+    "RandomConsumable"
+  ],
+  "modPrefix": "arackulele.inscryption.grimoramod_HS",
+  "name": "arackulele.inscryption.grimoramod_HS_seb",
+  "defaultEvolutionName": "God Lil' Seb",
+  "texture": "card_HS_seb.png",
+  "pixelTexture": "card_HS_seb_pixelTexture.png",
+  "temple": "Undead",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "TerrainBackground"
+  ],
+  "cardComplexity": "Simple"
+}

@@ -1,0 +1,28 @@
+{
+  "displayedName": "The King",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 3,
+  "baseHealth": 4,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "AllStrike"
+  ],
+  "modPrefix": "HSTech",
+  "name": "HSTech_king",
+  "defaultEvolutionName": "God The King",
+  "texture": "card_HS_king.png",
+  "pixelTexture": "card_HS_king_pixelTexture.png",
+  "temple": "Tech",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple",
+  "energyCost": 3
+}

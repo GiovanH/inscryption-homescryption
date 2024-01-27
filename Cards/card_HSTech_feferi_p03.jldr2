@@ -1,0 +1,30 @@
+{
+  "displayedName": "Feferi",
+  "description": "The better fish.",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 4,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "Submerge",
+    "TriStrike"
+  ],
+  "modPrefix": "HSTech",
+  "name": "HSTech_feferi",
+  "defaultEvolutionName": "God Feferi",
+  "texture": "card_HS_feferi.png",
+  "pixelTexture": "card_HS_feferi_pixelTexture.png",
+  "temple": "Tech",
+  "metaCategories": [
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "energyCost": 4
+}

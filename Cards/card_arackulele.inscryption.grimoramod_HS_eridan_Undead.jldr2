@@ -1,0 +1,29 @@
+{
+  "displayedName": "Eridan",
+  "description": "The worse fish.",
+  "tribes": [],
+  "baseAttack": 3,
+  "baseHealth": 3,
+  "bloodCost": 0,
+  "bonesCost": 3,
+  "traits": [],
+  "abilities": [
+    "Submerge",
+    "DebuffEnemy"
+  ],
+  "modPrefix": "arackulele.inscryption.grimoramod_HS",
+  "name": "arackulele.inscryption.grimoramod_HS_eridan",
+  "defaultEvolutionName": "God Eridan",
+  "texture": "card_HS_eridan.png",
+  "pixelTexture": "card_HS_eridan_pixelTexture.png",
+  "temple": "Undead",
+  "metaCategories": [
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

@@ -1,0 +1,33 @@
+{
+  "displayedName": "John",
+  "description": "As default as it gets.",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "Evolve"
+  ],
+  "modPrefix": "HSWizard",
+  "name": "HSWizard_john",
+  "defaultEvolutionName": "God John",
+  "texture": "card_HS_john.png",
+  "pixelTexture": "card_HS_john_pixelTexture.png",
+  "temple": "Wizard",
+  "metaCategories": [
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "gemsCost": [
+    "Orange"
+  ],
+  "evolveIntoName": "HS_john_june",
+  "evolveTurns": 1
+}

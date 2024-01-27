@@ -1,0 +1,30 @@
+{
+  "displayedName": "Lil' Cal",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 0,
+  "baseHealth": 2,
+  "bloodCost": 1,
+  "bonesCost": 0,
+  "traits": [
+    "Pelt"
+  ],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Coward"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_lilcal",
+  "defaultEvolutionName": "God Lil' Cal",
+  "texture": "card_HS_lilcal.png",
+  "pixelTexture": "card_HS_lilcal_pixelTexture.png",
+  "temple": "Nature",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "TerrainBackground"
+  ],
+  "cardComplexity": "Simple",
+  "evolveIntoName": "HS_lordenglish"
+}

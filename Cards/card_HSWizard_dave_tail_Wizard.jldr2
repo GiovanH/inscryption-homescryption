@@ -1,0 +1,26 @@
+{
+  "displayedName": "Doomed Dave",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 2,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "DeathShield",
+    "Brittle"
+  ],
+  "modPrefix": "HSWizard",
+  "name": "HSWizard_dave_tail",
+  "defaultEvolutionName": "God Doomed Dave",
+  "texture": "card_HS_dave_tail.png",
+  "pixelTexture": "card_HS_dave_tail_pixelTexture.png",
+  "temple": "Wizard",
+  "metaCategories": [],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "gemsCost": [
+    "Blue"
+  ]
+}

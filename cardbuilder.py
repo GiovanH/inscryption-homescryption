@@ -6,6 +6,7 @@ import os
 import shutil
 import collections
 import re
+import shutil
 # import glob
 
 
@@ -17,16 +18,13 @@ MOD_PREFIX = "HS"
 
 RECREATE_CSV = False
 
-ENERGY_TABLE = {
-    (0, 0): 1,
-    (1, 0): 2,
-    (2, 0): 3,
-    (3, 0): 4,
-    (4, 0): 6,
-    (0, 2): 1,
-    (0, 3): 2,
-    (0, 4): 3,
-    (0, 8): 6,
+WRITE_DEBUG_PACKS = True
+
+TRIBE_TO_GEM = {
+    "HS.Kid": "Green",
+    "HS.Troll": "Green",
+    "HS.Prospit": "Orange",
+    "HS.Derse": "Blue"
 }
 
 try:
@@ -85,15 +83,14 @@ def main():
 
     starter_decks = collections.defaultdict(list)
 
+    shutil.rmtree("./Cards/")
+
     for card_csv_row in card_csv_rows:
         card_def = rowToCardDef(card_csv_row.copy())
         name = card_def['name']
 
         if name == f"{MOD_PREFIX}_":
             continue
-
-        for deck_name in card_def.pop('!CB_DECKS'):
-            starter_decks[deck_name].append(name)
 
         art_path = os.path.join('Artwork', card_def['texture'])
         default_art_path = os.path.join('Artwork', 'default.png')
@@ -115,13 +112,18 @@ def main():
             ])
 
         def _writeCard(card_def, postfix=''):
-            if '!CB_DECKS' in card_def:
-                card_def.pop('!CB_DECKS')
-            out_path = f"Cards/card_{name}{postfix}.jldr2"
+            for deck_name in card_def.pop('!CB_DECKS'):
+                starter_decks[f"{card_def['temple']}_{deck_name}"].append(card_def['name'])
+
+            if WRITE_DEBUG_PACKS:
+                starter_decks[f"HS_TEST_{card_def['temple']}"].append(card_def['name'])
+
+            out_path = f"Cards/card_{card_def['name']}{postfix}.jldr2"
             os.makedirs(f"Cards/", exist_ok=True)
             # print("Writing", out_path)
             try:
-                jsonschema.validate(card_def, schema=json_card_schema)
+                # jsonschema.validate(card_def, schema=json_card_schema)
+                pass
             except NameError:
                 pass
             with open(out_path, 'w') as fp:
@@ -136,9 +138,10 @@ def main():
 
         # Other Temples
 
-        # for extemple in ['Undead', 'Wizard']:
-        #     card_def_temple = rowToCardDef(card_csv_row.copy(), temple=extemple)
-        #     _writeCard(card_def_temple)
+        for extemple in ['Undead', 'Wizard']:
+            # Undead cards don't show up in the pool yet 'Undead',
+            card_def_temple = rowToCardDef(card_csv_row.copy(), temple=extemple)
+            _writeCard(card_def_temple, postfix=f"_{extemple}")
 
     decks_def = {
         "decks": []
@@ -163,9 +166,18 @@ def rowToCardDef(card_csv_row, temple="Nature", transform_energy=False):
     rel_name = card_csv_row.pop('rel_name')
     mod_prefix = (f"{MOD_PREFIX}{temple}" if temple != "Nature" else MOD_PREFIX)
 
+    if temple == "Undead":
+        # Fix unextendable grimoramod
+        mod_prefix = f"arackulele.inscryption.grimoramod_HS"
+
     name = f"{mod_prefix}_{rel_name}"
 
-    exjson = json.loads(card_csv_row.pop('exjson', '{}') or '{}')
+    try:
+        json_txt = card_csv_row.pop('exjson', '{}')
+        exjson = json.loads(json_txt or '{}')
+    except json.decoder.JSONDecodeError:
+        print(repr(json_txt))
+        raise
     is_rare = card_csv_row.pop('rare', False)
     if is_rare.lower() == "false":
         is_rare = False
@@ -199,13 +211,14 @@ def rowToCardDef(card_csv_row, temple="Nature", transform_energy=False):
     if os.path.isfile(f"./Artwork/{emission_path}"):
         card_def['emissionTexture'] = emission_path
     else:
-        print("No emissionTexture", emission_path)
+        # print("No emissionTexture", emission_path)
+        pass
 
     for int_key in ['baseAttack', 'baseHealth', 'bloodCost', 'bonesCost']:
         card_def[int_key] = int(card_def[int_key] or 0)
 
     # Name helpers
-    for key in ['abilities']:
+    for key in ['abilities', 'p03_abilities']:
         card_def[key] = card_def[key].replace('NN.', 'nevernamed.inscryption.sigils.')
 
     for array_key in ['abilities', 'tribes', 'decks', 'traits', 'p03_abilities']:
@@ -232,23 +245,78 @@ def rowToCardDef(card_csv_row, temple="Nature", transform_energy=False):
     else:
         advanced_abilities
 
-    # Workarounds
-    if temple == 'Tech':
-        # card_def['temple'] = 'Tech'
-        card_def['tribes'] = []  # Workaround https://github.com/Cosmiscient/P03KayceeMod-Main/issues/13
-
     # Costs
     if temple == 'Tech':
+        # Convert blood, bones to energy
         old_blood_cost = card_def.get('bloodCost', 0)
         card_def['bloodCost'] = 0
 
-        if card_def['bonesCost'] == 0:
-            old_bone_cost = card_def.get('bonesCost', 0)
-            card_def['bonesCost'] = 0
+        old_bone_cost = card_def.get('bonesCost', 0)
+        card_def['bonesCost'] = 0
 
-            card_def['energyCost'] = ENERGY_TABLE[(old_blood_cost, old_bone_cost)]
+        # if card_def['energyCost'] < 1:
+        card_def['energyCost'] = 1
+        card_def['energyCost'] += old_blood_cost + old_bone_cost
         # else just keep bones cost
 
+    if temple == 'Undead':
+        # Convert blood, bones to bones, energy
+        old_blood_cost = card_def.get('bloodCost', 0)
+        card_def['bloodCost'] = 0
+
+        old_bone_cost = card_def.get('bonesCost', 0)
+        card_def['bonesCost'] = 0
+
+        if card_def['bonesCost'] < 1:
+            card_def['bonesCost'] = 1
+        card_def['bonesCost'] += old_blood_cost
+
+        if old_bone_cost > 0:
+            card_def['energyCost'] = 1 + old_bone_cost
+
+    if temple == 'Wizard':
+        old_blood_cost = card_def.get('bloodCost', 0)
+        card_def['bloodCost'] = 0
+
+        old_bone_cost = card_def.get('bonesCost', 0)
+        card_def['bonesCost'] = 0
+
+        total_old_cost = (old_bone_cost/1.5) + old_blood_cost
+
+        card_def['gemsCost'] = []
+
+        # Take a total "cost" in points, based on bones and blood.
+        # First, pay it with tribes
+        # Then, pull arbitrary gems if there's an outstanding balance.
+
+        # Outstanding cost, in gems
+        outstanding = round(total_old_cost * 0.6)
+
+        # print(name, outstanding, card_def['tribes'], card_def['gemsCost'])
+        while len(card_def['tribes']) > 0 and outstanding > 0:
+            new_gem = TRIBE_TO_GEM.get(card_def['tribes'].pop())
+            if new_gem is not None:
+                card_def['gemsCost'].append(new_gem)
+                outstanding -= 1
+            # print(name, outstanding, card_def['tribes'], card_def['gemsCost'])
+
+        if outstanding > 0:
+            outstanding = int(outstanding)
+            # print(outstanding, card_def['gemsCost'], outstanding)
+            card_def['gemsCost'] += ['Green', 'Orange', 'Blue'][:outstanding]
+
+        card_def['gemsCost'] = list(set(filter(bool, card_def['gemsCost'])))
+        # print(name, outstanding, card_def['tribes'], card_def['gemsCost'])
+
+        card_def['bloodCost'] = 0
+        card_def['bonesCost'] = 0
+
+    # Workarounds
+    if temple in ['Tech', 'Undead', 'Wizard']:
+        # card_def['temple'] = 'Tech'
+        # TODO: Evolve into and tail cards still have tribes since those fields aren't
+        # namespace-replaced
+        card_def['tribes'] = []  # Workaround https://github.com/Cosmiscient/P03KayceeMod-Main/issues/13
 
     card_def = {
         **card_def,

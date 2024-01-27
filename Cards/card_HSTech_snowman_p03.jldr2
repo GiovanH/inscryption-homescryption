@@ -1,0 +1,30 @@
+{
+  "displayedName": "Snowman",
+  "description": "If you kill her, you destroy the universe.",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [
+    "SatisfiesRingTrial"
+  ],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Annihilation"
+  ],
+  "modPrefix": "HSTech",
+  "name": "HSTech_snowman",
+  "defaultEvolutionName": "God Snowman",
+  "texture": "card_HS_snowman.png",
+  "pixelTexture": "card_HS_snowman_pixelTexture.png",
+  "temple": "Tech",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple",
+  "energyCost": 9
+}

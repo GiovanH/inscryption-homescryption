@@ -1,0 +1,31 @@
+{
+  "displayedName": "Karkat",
+  "description": "Friend, leader.",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 2,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "ConduitBuffAttack"
+  ],
+  "modPrefix": "HSWizard",
+  "name": "HSWizard_karkat",
+  "defaultEvolutionName": "God Karkat",
+  "texture": "card_HS_karkat.png",
+  "pixelTexture": "card_HS_karkat_pixelTexture.png",
+  "temple": "Wizard",
+  "metaCategories": [
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "gemsCost": [
+    "Orange"
+  ]
+}

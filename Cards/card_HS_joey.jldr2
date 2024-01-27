@@ -1,0 +1,30 @@
+{
+  "displayedName": "Joey",
+  "description": "",
+  "tribes": [
+    "HS.Kid"
+  ],
+  "baseAttack": 2,
+  "baseHealth": 4,
+  "bloodCost": 2,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "Tutor"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_joey",
+  "defaultEvolutionName": "God Joey",
+  "texture": "card_HS_joey.png",
+  "pixelTexture": "card_HS_joey_pixelTexture.png",
+  "temple": "Nature",
+  "metaCategories": [
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

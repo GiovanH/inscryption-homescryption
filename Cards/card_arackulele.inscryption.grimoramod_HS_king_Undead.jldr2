@@ -1,0 +1,27 @@
+{
+  "displayedName": "The King",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 3,
+  "baseHealth": 4,
+  "bloodCost": 0,
+  "bonesCost": 3,
+  "traits": [],
+  "abilities": [
+    "AllStrike"
+  ],
+  "modPrefix": "arackulele.inscryption.grimoramod_HS",
+  "name": "arackulele.inscryption.grimoramod_HS_king",
+  "defaultEvolutionName": "God The King",
+  "texture": "card_HS_king.png",
+  "pixelTexture": "card_HS_king_pixelTexture.png",
+  "temple": "Undead",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple"
+}

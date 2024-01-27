@@ -4,8 +4,8 @@
   "tribes": [],
   "baseAttack": 0,
   "baseHealth": 2,
-  "bloodCost": 3,
-  "bonesCost": 0,
+  "bloodCost": 0,
+  "bonesCost": 4,
   "traits": [
     "Goat",
     "SatisfiesRingTrial"
@@ -14,12 +14,12 @@
     "IceCube",
     "nevernamed.inscryption.sigils.Abstain"
   ],
-  "modPrefix": "HS",
-  "name": "HS_scratch",
+  "modPrefix": "arackulele.inscryption.grimoramod_HS",
+  "name": "arackulele.inscryption.grimoramod_HS_scratch",
   "defaultEvolutionName": "God Doc Scratch",
   "texture": "card_HS_scratch.png",
   "pixelTexture": "card_HS_scratch_pixelTexture.png",
-  "temple": "Nature",
+  "temple": "Undead",
   "metaCategories": [
     "Rare",
     "GBCPlayable"

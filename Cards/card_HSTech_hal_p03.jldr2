@@ -1,0 +1,28 @@
+{
+  "displayedName": "Hal",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 2,
+  "baseHealth": 2,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Sturdy"
+  ],
+  "modPrefix": "HSTech",
+  "name": "HSTech_hal",
+  "defaultEvolutionName": "God Hal",
+  "texture": "card_HS_hal.png",
+  "pixelTexture": "card_HS_hal_pixelTexture.png",
+  "temple": "Tech",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple",
+  "energyCost": 3
+}

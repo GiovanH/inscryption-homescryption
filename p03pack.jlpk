@@ -1,0 +1,6 @@
+{
+  "Title": "Homescrypt (P03)",
+  "Description": "Homestuck card pack for P03",
+  "ModPrefix": "HSTech",
+  "ValidFor": ["P03Pack"]
+}

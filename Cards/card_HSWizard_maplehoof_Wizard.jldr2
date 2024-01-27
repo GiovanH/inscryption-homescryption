@@ -1,0 +1,31 @@
+{
+  "displayedName": "Maplehoof",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 4,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "Strafe"
+  ],
+  "modPrefix": "HSWizard",
+  "name": "HSWizard_maplehoof",
+  "defaultEvolutionName": "God Maplehoof",
+  "texture": "card_HS_maplehoof.png",
+  "pixelTexture": "card_HS_maplehoof_pixelTexture.png",
+  "temple": "Wizard",
+  "metaCategories": [
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "gemsCost": [
+    "Green"
+  ]
+}

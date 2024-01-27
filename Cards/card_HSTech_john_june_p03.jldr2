@@ -1,0 +1,22 @@
+{
+  "displayedName": "June",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 2,
+  "baseHealth": 3,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [],
+  "modPrefix": "HSTech",
+  "name": "HSTech_john_june",
+  "defaultEvolutionName": "God June",
+  "texture": "card_HS_john_june.png",
+  "pixelTexture": "card_HS_john_june_pixelTexture.png",
+  "temple": "Tech",
+  "metaCategories": [],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "emissionTexture": "card_HS_john_june_emissionTexture.png",
+  "energyCost": 3
+}

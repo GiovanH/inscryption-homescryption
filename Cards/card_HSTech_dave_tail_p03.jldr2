@@ -1,0 +1,24 @@
+{
+  "displayedName": "Doomed Dave",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 2,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "DeathShield",
+    "Brittle"
+  ],
+  "modPrefix": "HSTech",
+  "name": "HSTech_dave_tail",
+  "defaultEvolutionName": "God Doomed Dave",
+  "texture": "card_HS_dave_tail.png",
+  "pixelTexture": "card_HS_dave_tail_pixelTexture.png",
+  "temple": "Tech",
+  "metaCategories": [],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "energyCost": 3
+}

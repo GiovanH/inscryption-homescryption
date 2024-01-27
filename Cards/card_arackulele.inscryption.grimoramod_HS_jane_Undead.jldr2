@@ -1,0 +1,28 @@
+{
+  "displayedName": "Jane",
+  "description": "A perfect cake every time you bake.",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 3,
+  "bloodCost": 0,
+  "bonesCost": 3,
+  "traits": [],
+  "abilities": [
+    "Morsel"
+  ],
+  "modPrefix": "arackulele.inscryption.grimoramod_HS",
+  "name": "arackulele.inscryption.grimoramod_HS_jane",
+  "defaultEvolutionName": "God Jane",
+  "texture": "card_HS_jane.png",
+  "pixelTexture": "card_HS_jane_pixelTexture.png",
+  "temple": "Undead",
+  "metaCategories": [
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple"
+}

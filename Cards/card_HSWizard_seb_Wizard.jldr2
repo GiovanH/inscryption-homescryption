@@ -1,0 +1,33 @@
+{
+  "displayedName": "Lil' Seb",
+  "description": "A little buddy.",
+  "tribes": [],
+  "baseAttack": 2,
+  "baseHealth": 2,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [
+    "Pelt"
+  ],
+  "abilities": [
+    "Strafe",
+    "RandomConsumable"
+  ],
+  "modPrefix": "HSWizard",
+  "name": "HSWizard_seb",
+  "defaultEvolutionName": "God Lil' Seb",
+  "texture": "card_HS_seb.png",
+  "pixelTexture": "card_HS_seb_pixelTexture.png",
+  "temple": "Wizard",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "TerrainBackground"
+  ],
+  "cardComplexity": "Simple",
+  "gemsCost": [
+    "Green"
+  ]
+}
