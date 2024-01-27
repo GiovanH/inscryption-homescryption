@@ -29,8 +29,8 @@
   "cardComplexity": "Simple",
   "gemsCost": [
     "Blue",
-    "Orange",
-    "Green"
+    "Green",
+    "Orange"
   ],
   "extensionProperties": {
     "BannedSigilTransferVictim": "true"

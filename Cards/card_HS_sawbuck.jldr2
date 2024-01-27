@@ -1,0 +1,29 @@
+{
+  "displayedName": "Sawbuck",
+  "description": "",
+  "tribes": [
+    "HS.Felt"
+  ],
+  "baseAttack": 0,
+  "baseHealth": 3,
+  "bloodCost": 3,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Snapshot"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_sawbuck",
+  "defaultEvolutionName": "God Sawbuck",
+  "texture": "card_HS_sawbuck.png",
+  "pixelTexture": "card_HS_sawbuck_pixelTexture.png",
+  "temple": "Nature",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple"
+}

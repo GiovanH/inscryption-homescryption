@@ -1,0 +1,30 @@
+{
+  "displayedName": "Die",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 2,
+  "baseHealth": 2,
+  "bloodCost": 0,
+  "bonesCost": 1,
+  "traits": [
+    "KillsSurvivors"
+  ],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Snip"
+  ],
+  "modPrefix": "arackulele.inscryption.grimoramod_HS",
+  "name": "arackulele.inscryption.grimoramod_HS_die",
+  "defaultEvolutionName": "God Die",
+  "texture": "card_HS_die.png",
+  "pixelTexture": "card_HS_die_pixelTexture.png",
+  "temple": "Undead",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple",
+  "energyCost": 7
+}

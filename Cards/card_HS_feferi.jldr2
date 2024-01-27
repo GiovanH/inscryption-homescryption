@@ -11,8 +11,8 @@
   "bonesCost": 0,
   "traits": [],
   "abilities": [
-    "Submerge",
-    "TriStrike"
+    "TriStrike",
+    "Submerge"
   ],
   "modPrefix": "HS",
   "name": "HS_feferi",
@@ -28,5 +28,6 @@
     "GBCPlayable"
   ],
   "appearanceBehaviour": [],
-  "cardComplexity": "Simple"
+  "cardComplexity": "Simple",
+  "evolveIntoName": "HS_condesce"
 }

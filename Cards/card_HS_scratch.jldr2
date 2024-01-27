@@ -1,7 +1,9 @@
 {
   "displayedName": "Doc Scratch",
   "description": "A harbinger.",
-  "tribes": [],
+  "tribes": [
+    "HS.Felt"
+  ],
   "baseAttack": 0,
   "baseHealth": 2,
   "bloodCost": 3,

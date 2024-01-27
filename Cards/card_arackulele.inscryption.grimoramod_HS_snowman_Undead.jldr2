@@ -7,7 +7,8 @@
   "bloodCost": 0,
   "bonesCost": 1,
   "traits": [
-    "SatisfiesRingTrial"
+    "SatisfiesRingTrial",
+    "KillsSurvivors"
   ],
   "abilities": [
     "nevernamed.inscryption.sigils.Annihilation"

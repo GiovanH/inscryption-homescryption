@@ -11,8 +11,8 @@
   "bonesCost": 0,
   "traits": [],
   "abilities": [
-    "Submerge",
-    "DebuffEnemy"
+    "nevernamed.inscryption.sigils.Piercing",
+    "Submerge"
   ],
   "modPrefix": "HS",
   "name": "HS_eridan",

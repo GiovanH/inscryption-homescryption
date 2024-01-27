@@ -1,0 +1,27 @@
+{
+  "displayedName": "Clover",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 3,
+  "traits": [],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Unlucky"
+  ],
+  "modPrefix": "arackulele.inscryption.grimoramod_HS",
+  "name": "arackulele.inscryption.grimoramod_HS_clover",
+  "defaultEvolutionName": "God Clover",
+  "texture": "card_HS_clover.png",
+  "pixelTexture": "card_HS_clover_pixelTexture.png",
+  "temple": "Undead",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple"
+}

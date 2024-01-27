@@ -1,13 +1,15 @@
 {
   "displayedName": "Imp",
-  "description": "Just a little guy. What will you make him into?",
+  "description": "",
   "tribes": [],
   "baseAttack": 1,
   "baseHealth": 1,
   "bloodCost": 0,
   "bonesCost": 0,
   "traits": [],
-  "abilities": [],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Sigil Mimic"
+  ],
   "modPrefix": "HS",
   "name": "HS_imp",
   "defaultEvolutionName": "God Imp",

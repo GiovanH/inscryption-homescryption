@@ -1,0 +1,28 @@
+{
+  "displayedName": "Sawbuck",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 0,
+  "baseHealth": 3,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Snapshot"
+  ],
+  "modPrefix": "HSTech",
+  "name": "HSTech_sawbuck",
+  "defaultEvolutionName": "God Sawbuck",
+  "texture": "card_HS_sawbuck.png",
+  "pixelTexture": "card_HS_sawbuck_pixelTexture.png",
+  "temple": "Tech",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple",
+  "energyCost": 4
+}

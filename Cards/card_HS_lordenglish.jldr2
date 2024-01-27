@@ -1,7 +1,9 @@
 {
   "displayedName": "Lord English",
   "description": "The eight-ball.",
-  "tribes": [],
+  "tribes": [
+    "HS.Felt"
+  ],
   "baseAttack": 2,
   "baseHealth": 8,
   "bloodCost": 4,

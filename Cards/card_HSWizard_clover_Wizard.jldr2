@@ -1,0 +1,30 @@
+{
+  "displayedName": "Clover",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Unlucky"
+  ],
+  "modPrefix": "HSWizard",
+  "name": "HSWizard_clover",
+  "defaultEvolutionName": "God Clover",
+  "texture": "card_HS_clover.png",
+  "pixelTexture": "card_HS_clover_pixelTexture.png",
+  "temple": "Wizard",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple",
+  "gemsCost": [
+    "Green"
+  ]
+}

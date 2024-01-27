@@ -8,8 +8,8 @@
   "bonesCost": 0,
   "traits": [],
   "abilities": [
-    "Submerge",
-    "TriStrike"
+    "TriStrike",
+    "Submerge"
   ],
   "modPrefix": "HSWizard",
   "name": "HSWizard_feferi",
@@ -29,5 +29,6 @@
   "gemsCost": [
     "Blue",
     "Green"
-  ]
+  ],
+  "evolveIntoName": "HS_condesce"
 }

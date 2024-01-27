@@ -1,0 +1,28 @@
+{
+  "displayedName": "Clover",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 1,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Unlucky"
+  ],
+  "modPrefix": "HSTech",
+  "name": "HSTech_clover",
+  "defaultEvolutionName": "God Clover",
+  "texture": "card_HS_clover.png",
+  "pixelTexture": "card_HS_clover_pixelTexture.png",
+  "temple": "Tech",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple",
+  "energyCost": 3
+}

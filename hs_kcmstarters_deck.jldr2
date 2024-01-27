@@ -1,14 +1,14 @@
 {
   "decks": [
     {
-      "name": "Nature_Betas",
+      "name": "Betas_Nature",
       "cards": [
         "HS_john",
         "HS_jade",
         "HS_dave",
         "HS_rose"
       ],
-      "iconTexture": "default.png"
+      "iconTexture": "starter_Betas.png"
     },
     {
       "name": "HS_TEST_Nature",
@@ -41,29 +41,34 @@
         "HS_aradiabot",
         "HS_maplehoof",
         "HS_scalemate",
+        "HS_lilcal",
         "HS_snowman",
         "HS_scratch",
         "HS_lordenglish",
+        "HS_crowbar",
+        "HS_die",
+        "HS_mspaint",
+        "HS_sawbuck",
+        "HS_clover",
         "HS_seb",
         "HS_condesce",
         "HS_imp",
         "HS_jack",
         "HS_sprite",
         "HS_king",
-        "HS_calliope",
-        "HS_lilcal"
+        "HS_calliope"
       ],
-      "iconTexture": "default.png"
+      "iconTexture": "starter_HS_TEST.png"
     },
     {
-      "name": "Tech_Betas",
+      "name": "Betas_Tech",
       "cards": [
         "HSTech_john",
         "HSTech_jade",
         "HSTech_dave",
         "HSTech_rose"
       ],
-      "iconTexture": "default.png"
+      "iconTexture": "starter_Betas.png"
     },
     {
       "name": "HS_TEST_Tech",
@@ -96,29 +101,34 @@
         "HSTech_aradiabot",
         "HSTech_maplehoof",
         "HSTech_scalemate",
+        "HSTech_lilcal",
         "HSTech_snowman",
         "HSTech_scratch",
         "HSTech_lordenglish",
+        "HSTech_crowbar",
+        "HSTech_die",
+        "HSTech_mspaint",
+        "HSTech_sawbuck",
+        "HSTech_clover",
         "HSTech_seb",
         "HSTech_condesce",
         "HSTech_imp",
         "HSTech_jack",
         "HSTech_sprite",
         "HSTech_king",
-        "HSTech_calliope",
-        "HSTech_lilcal"
+        "HSTech_calliope"
       ],
-      "iconTexture": "default.png"
+      "iconTexture": "starter_HS_TEST.png"
     },
     {
-      "name": "Undead_Betas",
+      "name": "Betas_Undead",
       "cards": [
         "arackulele.inscryption.grimoramod_HS_john",
         "arackulele.inscryption.grimoramod_HS_jade",
         "arackulele.inscryption.grimoramod_HS_dave",
         "arackulele.inscryption.grimoramod_HS_rose"
       ],
-      "iconTexture": "default.png"
+      "iconTexture": "starter_Betas.png"
     },
     {
       "name": "HS_TEST_Undead",
@@ -151,29 +161,34 @@
         "arackulele.inscryption.grimoramod_HS_aradiabot",
         "arackulele.inscryption.grimoramod_HS_maplehoof",
         "arackulele.inscryption.grimoramod_HS_scalemate",
+        "arackulele.inscryption.grimoramod_HS_lilcal",
         "arackulele.inscryption.grimoramod_HS_snowman",
         "arackulele.inscryption.grimoramod_HS_scratch",
         "arackulele.inscryption.grimoramod_HS_lordenglish",
+        "arackulele.inscryption.grimoramod_HS_crowbar",
+        "arackulele.inscryption.grimoramod_HS_die",
+        "arackulele.inscryption.grimoramod_HS_mspaint",
+        "arackulele.inscryption.grimoramod_HS_sawbuck",
+        "arackulele.inscryption.grimoramod_HS_clover",
         "arackulele.inscryption.grimoramod_HS_seb",
         "arackulele.inscryption.grimoramod_HS_condesce",
         "arackulele.inscryption.grimoramod_HS_imp",
         "arackulele.inscryption.grimoramod_HS_jack",
         "arackulele.inscryption.grimoramod_HS_sprite",
         "arackulele.inscryption.grimoramod_HS_king",
-        "arackulele.inscryption.grimoramod_HS_calliope",
-        "arackulele.inscryption.grimoramod_HS_lilcal"
+        "arackulele.inscryption.grimoramod_HS_calliope"
       ],
-      "iconTexture": "default.png"
+      "iconTexture": "starter_HS_TEST.png"
     },
     {
-      "name": "Wizard_Betas",
+      "name": "Betas_Wizard",
       "cards": [
         "HSWizard_john",
         "HSWizard_jade",
         "HSWizard_dave",
         "HSWizard_rose"
       ],
-      "iconTexture": "default.png"
+      "iconTexture": "starter_Betas.png"
     },
     {
       "name": "HS_TEST_Wizard",
@@ -206,62 +221,67 @@
         "HSWizard_aradiabot",
         "HSWizard_maplehoof",
         "HSWizard_scalemate",
+        "HSWizard_lilcal",
         "HSWizard_snowman",
         "HSWizard_scratch",
         "HSWizard_lordenglish",
+        "HSWizard_crowbar",
+        "HSWizard_die",
+        "HSWizard_mspaint",
+        "HSWizard_sawbuck",
+        "HSWizard_clover",
         "HSWizard_seb",
         "HSWizard_condesce",
         "HSWizard_imp",
         "HSWizard_jack",
         "HSWizard_sprite",
         "HSWizard_king",
-        "HSWizard_calliope",
-        "HSWizard_lilcal"
+        "HSWizard_calliope"
       ],
-      "iconTexture": "default.png"
+      "iconTexture": "starter_HS_TEST.png"
     },
     {
-      "name": "Nature_Alphas",
+      "name": "Alphas_Nature",
       "cards": [
         "HS_dirk",
         "HS_roxy",
         "HS_jane",
         "HS_jake"
       ],
-      "iconTexture": "default.png"
+      "iconTexture": "starter_Alphas.png"
     },
     {
-      "name": "Tech_Alphas",
+      "name": "Alphas_Tech",
       "cards": [
         "HSTech_dirk",
         "HSTech_roxy",
         "HSTech_jane",
         "HSTech_jake"
       ],
-      "iconTexture": "default.png"
+      "iconTexture": "starter_Alphas.png"
     },
     {
-      "name": "Undead_Alphas",
+      "name": "Alphas_Undead",
       "cards": [
         "arackulele.inscryption.grimoramod_HS_dirk",
         "arackulele.inscryption.grimoramod_HS_roxy",
         "arackulele.inscryption.grimoramod_HS_jane",
         "arackulele.inscryption.grimoramod_HS_jake"
       ],
-      "iconTexture": "default.png"
+      "iconTexture": "starter_Alphas.png"
     },
     {
-      "name": "Wizard_Alphas",
+      "name": "Alphas_Wizard",
       "cards": [
         "HSWizard_dirk",
         "HSWizard_roxy",
         "HSWizard_jane",
         "HSWizard_jake"
       ],
-      "iconTexture": "default.png"
+      "iconTexture": "starter_Alphas.png"
     },
     {
-      "name": "Nature_Blue",
+      "name": "Blue_Nature",
       "cards": [
         "HS_aradia",
         "HS_sollux",
@@ -270,10 +290,10 @@
         "HS_eridan",
         "HS_feferi"
       ],
-      "iconTexture": "default.png"
+      "iconTexture": "starter_Blue.png"
     },
     {
-      "name": "Tech_Blue",
+      "name": "Blue_Tech",
       "cards": [
         "HSTech_aradia",
         "HSTech_sollux",
@@ -282,10 +302,10 @@
         "HSTech_eridan",
         "HSTech_feferi"
       ],
-      "iconTexture": "default.png"
+      "iconTexture": "starter_Blue.png"
     },
     {
-      "name": "Undead_Blue",
+      "name": "Blue_Undead",
       "cards": [
         "arackulele.inscryption.grimoramod_HS_aradia",
         "arackulele.inscryption.grimoramod_HS_sollux",
@@ -294,10 +314,10 @@
         "arackulele.inscryption.grimoramod_HS_eridan",
         "arackulele.inscryption.grimoramod_HS_feferi"
       ],
-      "iconTexture": "default.png"
+      "iconTexture": "starter_Blue.png"
     },
     {
-      "name": "Wizard_Blue",
+      "name": "Blue_Wizard",
       "cards": [
         "HSWizard_aradia",
         "HSWizard_sollux",
@@ -306,10 +326,10 @@
         "HSWizard_eridan",
         "HSWizard_feferi"
       ],
-      "iconTexture": "default.png"
+      "iconTexture": "starter_Blue.png"
     },
     {
-      "name": "Nature_Red",
+      "name": "Red_Nature",
       "cards": [
         "HS_tavros",
         "HS_karkat",
@@ -318,10 +338,10 @@
         "HS_vriska",
         "HS_gamzee"
       ],
-      "iconTexture": "default.png"
+      "iconTexture": "starter_Red.png"
     },
     {
-      "name": "Tech_Red",
+      "name": "Red_Tech",
       "cards": [
         "HSTech_tavros",
         "HSTech_karkat",
@@ -330,10 +350,10 @@
         "HSTech_vriska",
         "HSTech_gamzee"
       ],
-      "iconTexture": "default.png"
+      "iconTexture": "starter_Red.png"
     },
     {
-      "name": "Undead_Red",
+      "name": "Red_Undead",
       "cards": [
         "arackulele.inscryption.grimoramod_HS_tavros",
         "arackulele.inscryption.grimoramod_HS_karkat",
@@ -342,10 +362,10 @@
         "arackulele.inscryption.grimoramod_HS_vriska",
         "arackulele.inscryption.grimoramod_HS_gamzee"
       ],
-      "iconTexture": "default.png"
+      "iconTexture": "starter_Red.png"
     },
     {
-      "name": "Wizard_Red",
+      "name": "Red_Wizard",
       "cards": [
         "HSWizard_tavros",
         "HSWizard_karkat",
@@ -354,7 +374,7 @@
         "HSWizard_vriska",
         "HSWizard_gamzee"
       ],
-      "iconTexture": "default.png"
+      "iconTexture": "starter_Red.png"
     }
   ]
 }

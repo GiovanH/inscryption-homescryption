@@ -1,0 +1,33 @@
+{
+  "displayedName": "Die",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 2,
+  "baseHealth": 2,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [
+    "KillsSurvivors"
+  ],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Snip"
+  ],
+  "modPrefix": "HSWizard",
+  "name": "HSWizard_die",
+  "defaultEvolutionName": "God Die",
+  "texture": "card_HS_die.png",
+  "pixelTexture": "card_HS_die_pixelTexture.png",
+  "temple": "Wizard",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple",
+  "gemsCost": [
+    "Green",
+    "Orange"
+  ]
+}

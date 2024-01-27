@@ -1,13 +1,16 @@
 {
   "displayedName": "Snowman",
   "description": "If you kill her, you destroy the universe.",
-  "tribes": [],
+  "tribes": [
+    "HS.Felt"
+  ],
   "baseAttack": 1,
   "baseHealth": 1,
   "bloodCost": 0,
   "bonesCost": 8,
   "traits": [
-    "SatisfiesRingTrial"
+    "SatisfiesRingTrial",
+    "KillsSurvivors"
   ],
   "abilities": [
     "nevernamed.inscryption.sigils.Annihilation"

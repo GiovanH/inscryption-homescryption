@@ -7,10 +7,12 @@
   "bloodCost": 0,
   "bonesCost": 0,
   "traits": [
-    "Pelt"
+    "Pelt",
+    "KillsSurvivors"
   ],
   "abilities": [
-    "nevernamed.inscryption.sigils.Coward"
+    "nevernamed.inscryption.sigils.Coward",
+    "DrawCopyOnDeath"
   ],
   "modPrefix": "HSWizard",
   "name": "HSWizard_lilcal",
@@ -19,7 +21,10 @@
   "pixelTexture": "card_HS_lilcal_pixelTexture.png",
   "temple": "Wizard",
   "metaCategories": [
-    "Rare",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
     "GBCPlayable"
   ],
   "appearanceBehaviour": [
@@ -29,5 +34,6 @@
   "gemsCost": [
     "Green"
   ],
+  "iceCubeName": "HS_lordenglish",
   "evolveIntoName": "HS_lordenglish"
 }

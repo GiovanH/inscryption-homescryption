@@ -1,13 +1,15 @@
 {
   "displayedName": "Imp",
-  "description": "Just a little guy. What will you make him into?",
+  "description": "",
   "tribes": [],
   "baseAttack": 1,
   "baseHealth": 1,
   "bloodCost": 0,
   "bonesCost": 1,
   "traits": [],
-  "abilities": [],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Sigil Mimic"
+  ],
   "modPrefix": "arackulele.inscryption.grimoramod_HS",
   "name": "arackulele.inscryption.grimoramod_HS_imp",
   "defaultEvolutionName": "God Imp",

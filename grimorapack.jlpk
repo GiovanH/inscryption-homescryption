@@ -1,0 +1,6 @@
+{
+  "Title": "Homescrypt (Grimora)",
+  "Description": "Homestuck card pack",
+  "ModPrefix": "arackulele.inscryption.grimoramod_HS",
+  "ValidFor": ["GrimoraPack"]
+}

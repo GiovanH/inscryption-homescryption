@@ -35,6 +35,18 @@ try:
 except FileNotFoundError:
     pass
 
+def maybeWriteBlankImage(art_path, dimensions: str):
+    if not os.path.isfile(art_path):
+        print("Writing default", art_path)
+        # shutil.copy2(default_art_path, art_path)
+        subprocess.run([
+            'magick', 'convert',
+            '-size', dimensions,
+            'canvas:transparent',
+            '-alpha', 'transparent',
+            f"PNG32:{art_path}"
+        ])
+
 def main():
     card_csv_rows = []
 
@@ -93,10 +105,7 @@ def main():
             continue
 
         art_path = os.path.join('Artwork', card_def['texture'])
-        default_art_path = os.path.join('Artwork', 'default.png')
-        if not os.path.isfile(art_path):
-            print("Writing default", art_path, "for", name)
-            shutil.copy2(default_art_path, art_path)
+        maybeWriteBlankImage(art_path, '114x94')
 
         art_path_gbc = os.path.join('Artwork', card_def['pixelTexture'])
         if not os.path.isfile(art_path_gbc):
@@ -113,10 +122,12 @@ def main():
 
         def _writeCard(card_def, postfix=''):
             for deck_name in card_def.pop('!CB_DECKS'):
-                starter_decks[f"{card_def['temple']}_{deck_name}"].append(card_def['name'])
+                deck_tuple = (deck_name, card_def['temple'])
+                starter_decks[deck_tuple].append(card_def['name'])
 
             if WRITE_DEBUG_PACKS:
-                starter_decks[f"HS_TEST_{card_def['temple']}"].append(card_def['name'])
+                deck_tuple = ("HS_TEST", card_def['temple'])
+                starter_decks[deck_tuple].append(card_def['name'])
 
             out_path = f"Cards/card_{card_def['name']}{postfix}.jldr2"
             os.makedirs(f"Cards/", exist_ok=True)
@@ -146,11 +157,15 @@ def main():
     decks_def = {
         "decks": []
     }
-    for deck_name, card_list in starter_decks.items():
+    for (deck_name, deck_temple), card_list in starter_decks.items():
+        iconTexture = f"starter_{deck_name}.png"
+
+        maybeWriteBlankImage(os.path.join('Artwork', iconTexture), '35x44')
+
         decks_def['decks'].append({
-            "name": deck_name,
+            "name": f"{deck_name}_{deck_temple}",
             "cards": card_list,
-            "iconTexture": "default.png"
+            "iconTexture": iconTexture
         })
 
     out_path = f"hs_kcmstarters_deck.jldr2"
@@ -306,6 +321,7 @@ def rowToCardDef(card_csv_row, temple="Nature", transform_energy=False):
             card_def['gemsCost'] += ['Green', 'Orange', 'Blue'][:outstanding]
 
         card_def['gemsCost'] = list(set(filter(bool, card_def['gemsCost'])))
+        card_def['gemsCost'] = sorted(card_def['gemsCost'])
         # print(name, outstanding, card_def['tribes'], card_def['gemsCost'])
 
         card_def['bloodCost'] = 0

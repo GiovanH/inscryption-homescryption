@@ -8,8 +8,8 @@
   "bonesCost": 0,
   "traits": [],
   "abilities": [
-    "Submerge",
-    "nevernamed.inscryption.sigils.Antimagic"
+    "nevernamed.inscryption.sigils.Antimagic",
+    "Submerge"
   ],
   "modPrefix": "HSTech",
   "name": "HSTech_eridan",

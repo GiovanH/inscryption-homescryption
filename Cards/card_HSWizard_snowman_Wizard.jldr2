@@ -7,7 +7,8 @@
   "bloodCost": 0,
   "bonesCost": 0,
   "traits": [
-    "SatisfiesRingTrial"
+    "SatisfiesRingTrial",
+    "KillsSurvivors"
   ],
   "abilities": [
     "nevernamed.inscryption.sigils.Annihilation"
@@ -28,7 +29,7 @@
   "cardComplexity": "Simple",
   "gemsCost": [
     "Blue",
-    "Orange",
-    "Green"
+    "Green",
+    "Orange"
   ]
 }

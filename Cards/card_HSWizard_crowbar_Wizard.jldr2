@@ -1,0 +1,30 @@
+{
+  "displayedName": "Crowbar",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 2,
+  "baseHealth": 2,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Artistic License"
+  ],
+  "modPrefix": "HSWizard",
+  "name": "HSWizard_crowbar",
+  "defaultEvolutionName": "God Crowbar",
+  "texture": "card_HS_crowbar.png",
+  "pixelTexture": "card_HS_crowbar_pixelTexture.png",
+  "temple": "Wizard",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple",
+  "gemsCost": [
+    "Green"
+  ]
+}

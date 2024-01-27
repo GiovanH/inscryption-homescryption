@@ -16,7 +16,7 @@ joey,Joey,,HS.Kid,2,4,2,,,,,,Tutor,,
 jude,Jude,,HS.Kid,4,2,2,,,,,,Reach,,
 ,,,,,,,,,,,,,,
 aradia,Aradia,The archaeologist.,"HS.Troll,HS.Derse,Hooved",1,2,,3,,,Blue,Goat,"BoneDigger,OpponentBones",,
-tavros,Tavros,,"HS.Troll,HS.Prospit,Hooved",1,1,,3,,,Red,,NN.Squirrel King,,
+tavros,Tavros,,"HS.Troll,HS.Prospit,Hooved",1,1,,3,,,Red,,NN.Squirrel King,NN.Summoner,
 sollux,Sollux,A powerful psychic. But you just get bees.,"HS.Troll,HS.Derse,HS.Prospit",1,2,,2,,,Blue,,"BeesOnHit,DoubleDeath",,
 nepeta,Nepeta,What's better than a cat?,"HS.Troll,HS.Derse",1,1,1,,,,Blue,,"Sacrificial,NN.Flighty","NN.Cute,NN.Flighty",
 karkat,Karkat,"Friend, leader.","HS.Troll,HS.Prospit",1,2,2,,,,Red,,"TripleBlood,BuffNeighbours",ConduitBuffAttack,
@@ -24,22 +24,28 @@ kanaya,Kanaya,,"HS.Troll,HS.Prospit",2,3,2,,,,Red,,"NN.Bandage Weaver,NN.Vampiri
 terezi,Terezi,,"HS.Troll,HS.Prospit",2,3,2,,,,Red,,NN.Flip,,
 vriska,Vriska,The center of attention.,"HS.Troll,HS.Prospit,NN.Arachnid",3,3,2,,,,Red,KillsSurvivors,"NN.Tempting Target,NN.Web","NN.Tempting Target,NN.Thief",
 equius,Equius,,"HS.Troll,HS.Prospit,Hooved",5,2,3,,,,Blue,,,,
-gamzee,Gamzee,"A wildcard, this one.","HS.Troll,HS.Derse",2,2,2,,,,Red,,"RandomAbility,GainAttackOnKill",,
-eridan,Eridan,The worse fish.,"HS.Troll,HS.Derse",3,3,2,,,,Blue,,"Submerge,DebuffEnemy","Submerge,NN.Antimagic",
-feferi,Feferi,The better fish.,"HS.Troll,HS.Derse",1,4,3,,,,Blue,,"Submerge,TriStrike",,
+gamzee,Gamzee,"A wildcard, this one.","HS.Troll,HS.Derse",1,2,2,,,,Red,,"RandomAbility,GainAttackOnKill",,
+eridan,Eridan,The worse fish.,"HS.Troll,HS.Derse",3,3,2,,,,Blue,,"NN.Piercing,Submerge","NN.Antimagic,Submerge",
+feferi,Feferi,The better fish.,"HS.Troll,HS.Derse",1,4,3,,,,Blue,,"TriStrike,Submerge",,"{""evolveIntoName"": ""HS_condesce""}"
 ,,,,,,,,,,,,,,
 aradiabot,Aradiabot,,"HS.Troll,HS.Derse",1,1,,3,,,,Goat,NN.Phantasmic,,
 maplehoof,Maplehoof,,Hooved,1,4,2,,,,,,Strafe,,
 scalemate,Scalemate,,,0,2,,,,TRUE,,Pelt,,,"{""appearanceBehaviour"": [""TerrainBackground""]}"
+lilcal,Lil' Cal,,HS.Felt,0,2,1,,,,,"Pelt,KillsSurvivors","NN.Coward,DrawCopyOnDeath",,"{""appearanceBehaviour"": [""TerrainBackground""], ""iceCubeName"": ""HS_lordenglish"", ""evolveIntoName"": ""HS_lordenglish""}"
 ,,,,,,,,,,,,,,
-snowman,Snowman,"If you kill her, you destroy the universe.",,1,1,,8,TRUE,,,SatisfiesRingTrial,NN.Annihilation,,
-scratch,Doc Scratch,A harbinger.,,0,2,3,,TRUE,,,"Goat,SatisfiesRingTrial","IceCube,NN.Abstain",,"{""emissionTexture"": ""card_HS_scratch.png"", ""appearanceBehaviour"": [""RareCardBackground"", ""spapi.inscryption.configemissions.ConfigurableStatColors""], ""iceCubeName"": ""HS_lordenglish"", ""extensionProperties"": {""customPortraitColorHEX"": ""#FFFFFF""}}"
-lordenglish,Lord English,The eight-ball.,,2,8,4,,TRUE,TRUE,,,"AllStrike,Deathtouch",,"{""appearanceBehaviour"": [""GoldEmission""]}"
+snowman,Snowman,"If you kill her, you destroy the universe.",HS.Felt,1,1,,8,TRUE,,,"SatisfiesRingTrial,KillsSurvivors",NN.Annihilation,,
+scratch,Doc Scratch,A harbinger.,HS.Felt,0,2,3,,TRUE,,,"Goat,SatisfiesRingTrial","IceCube,NN.Abstain",,"{""emissionTexture"": ""card_HS_scratch.png"", ""appearanceBehaviour"": [""RareCardBackground"", ""spapi.inscryption.configemissions.ConfigurableStatColors""], ""iceCubeName"": ""HS_lordenglish"", ""extensionProperties"": {""customPortraitColorHEX"": ""#FFFFFF""}}"
+lordenglish,Lord English,The eight-ball.,HS.Felt,2,8,4,,TRUE,TRUE,,,"AllStrike,Deathtouch",,"{""appearanceBehaviour"": [""GoldEmission""]}"
+crowbar,Crowbar,,HS.Felt,2,2,2,,TRUE,,,,NN.Artistic License,,
+die,Die,,HS.Felt,2,2,,6,TRUE,,,KillsSurvivors,NN.Snip,,
+mspaint,MS Paint,,HS.Felt,1,2,2,,TRUE,,,,NN.Blood Artist,,
+sawbuck,Sawbuck,,HS.Felt,0,3,3,,TRUE,,,,NN.Snapshot,,
+clover,Clover,,HS.Felt,1,1,2,,TRUE,,,,NN.Unlucky,,
+,,,,,,,,,,,,,,
 seb,Lil' Seb,A little buddy.,,2,2,2,,TRUE,,,Pelt,"Strafe,RandomConsumable",,"{""appearanceBehaviour"": [""TerrainBackground""]}"
 condesce,The Condesce,The unkillable sea-witch.,HS.Troll,3,2,2,,TRUE,,,,"Submerge,DrawCopyOnDeath",,
-imp,Imp,Just a little guy. What will you make him into?,,1,1,0,0,TRUE,TRUE,,,,,
+imp,Imp,,,1,1,0,0,TRUE,TRUE,,,NN.Sigil Mimic,,
 jack,Jack,,,0,2,2,,TRUE,,,,"DoubleStrike,NN.Lonesome",,
 sprite,Sprite,Trades powers around like they're nothing.,,0,2,1,,TRUE,,,,NN.Inspiring Sacrifice,NN.Haunter,
 king,The King,,,3,4,2,,TRUE,,,,"AllStrike,Brittle",,
 calliope,Calliope,,,0,11,,8,TRUE,,,"Terrain,DeathcardCreationNonOption",PreventAttack,,"{""extensionProperties"": {""BannedSigilTransferVictim"": ""true""}}"
-lilcal,Lil' Cal,,,0,2,1,,TRUE,,,Pelt,NN.Coward,,"{""appearanceBehaviour"": [""TerrainBackground""], ""evolveIntoName"": ""HS_lordenglish""}"

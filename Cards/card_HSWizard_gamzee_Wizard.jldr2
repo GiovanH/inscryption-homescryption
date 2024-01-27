@@ -2,7 +2,7 @@
   "displayedName": "Gamzee",
   "description": "A wildcard, this one.",
   "tribes": [],
-  "baseAttack": 2,
+  "baseAttack": 1,
   "baseHealth": 2,
   "bloodCost": 0,
   "bonesCost": 0,

@@ -23,6 +23,12 @@
       "guid": "HS",
       "tribeIcon": "tribeicon_troll.png",
       "appearInTribeChoices": true
+    },
+    {
+      "name": "Felt",
+      "guid": "HS",
+      "tribeIcon": "tribeicon_felt.png",
+      "appearInTribeChoices": true
     }
   ]
 }

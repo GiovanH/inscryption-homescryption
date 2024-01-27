@@ -1,0 +1,31 @@
+{
+  "displayedName": "Die",
+  "description": "",
+  "tribes": [
+    "HS.Felt"
+  ],
+  "baseAttack": 2,
+  "baseHealth": 2,
+  "bloodCost": 0,
+  "bonesCost": 6,
+  "traits": [
+    "KillsSurvivors"
+  ],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Snip"
+  ],
+  "modPrefix": "HS",
+  "name": "HS_die",
+  "defaultEvolutionName": "God Die",
+  "texture": "card_HS_die.png",
+  "pixelTexture": "card_HS_die_pixelTexture.png",
+  "temple": "Nature",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple"
+}

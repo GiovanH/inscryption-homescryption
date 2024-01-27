@@ -8,7 +8,8 @@
   "bonesCost": 3,
   "traits": [],
   "abilities": [
-    "AllStrike"
+    "AllStrike",
+    "Brittle"
   ],
   "modPrefix": "arackulele.inscryption.grimoramod_HS",
   "name": "arackulele.inscryption.grimoramod_HS_king",

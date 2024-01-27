@@ -8,8 +8,8 @@
   "bonesCost": 0,
   "traits": [],
   "abilities": [
-    "Submerge",
-    "TriStrike"
+    "TriStrike",
+    "Submerge"
   ],
   "modPrefix": "HSTech",
   "name": "HSTech_feferi",
@@ -26,5 +26,6 @@
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple",
-  "energyCost": 4
+  "energyCost": 4,
+  "evolveIntoName": "HS_condesce"
 }

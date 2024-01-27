@@ -1,0 +1,28 @@
+{
+  "displayedName": "MS Paint",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 2,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Blood Artist"
+  ],
+  "modPrefix": "HSTech",
+  "name": "HSTech_mspaint",
+  "defaultEvolutionName": "God MS Paint",
+  "texture": "card_HS_mspaint.png",
+  "pixelTexture": "card_HS_mspaint_pixelTexture.png",
+  "temple": "Tech",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple",
+  "energyCost": 3
+}

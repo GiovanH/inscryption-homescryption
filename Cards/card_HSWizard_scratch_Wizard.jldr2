@@ -30,8 +30,8 @@
   ],
   "cardComplexity": "Simple",
   "gemsCost": [
-    "Orange",
-    "Green"
+    "Green",
+    "Orange"
   ],
   "emissionTexture": "card_HS_scratch.png",
   "iceCubeName": "HS_lordenglish",

@@ -1,0 +1,27 @@
+{
+  "displayedName": "Crowbar",
+  "description": "",
+  "tribes": [],
+  "baseAttack": 2,
+  "baseHealth": 2,
+  "bloodCost": 0,
+  "bonesCost": 3,
+  "traits": [],
+  "abilities": [
+    "nevernamed.inscryption.sigils.Artistic License"
+  ],
+  "modPrefix": "arackulele.inscryption.grimoramod_HS",
+  "name": "arackulele.inscryption.grimoramod_HS_crowbar",
+  "defaultEvolutionName": "God Crowbar",
+  "texture": "card_HS_crowbar.png",
+  "pixelTexture": "card_HS_crowbar_pixelTexture.png",
+  "temple": "Undead",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground"
+  ],
+  "cardComplexity": "Simple"
+}

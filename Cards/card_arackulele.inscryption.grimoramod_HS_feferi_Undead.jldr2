@@ -8,8 +8,8 @@
   "bonesCost": 4,
   "traits": [],
   "abilities": [
-    "Submerge",
-    "TriStrike"
+    "TriStrike",
+    "Submerge"
   ],
   "modPrefix": "arackulele.inscryption.grimoramod_HS",
   "name": "arackulele.inscryption.grimoramod_HS_feferi",
@@ -25,5 +25,6 @@
     "GBCPlayable"
   ],
   "appearanceBehaviour": [],
-  "cardComplexity": "Simple"
+  "cardComplexity": "Simple",
+  "evolveIntoName": "HS_condesce"
 }
