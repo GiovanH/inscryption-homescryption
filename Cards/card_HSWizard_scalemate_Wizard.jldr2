@@ -21,5 +21,7 @@
     "TerrainBackground"
   ],
   "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_scalemate_emissionTexture.png",
   "gemsCost": []
 }

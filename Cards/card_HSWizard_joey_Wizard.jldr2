@@ -2,8 +2,8 @@
   "displayedName": "Joey",
   "description": "",
   "tribes": [],
-  "baseAttack": 2,
-  "baseHealth": 4,
+  "baseAttack": 1,
+  "baseHealth": 2,
   "bloodCost": 0,
   "bonesCost": 0,
   "traits": [],
@@ -25,6 +25,8 @@
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_joey_emissionTexture.png",
   "gemsCost": [
     "Green"
   ]

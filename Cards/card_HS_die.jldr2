@@ -12,7 +12,8 @@
     "KillsSurvivors"
   ],
   "abilities": [
-    "nevernamed.inscryption.sigils.Snip"
+    "nevernamed.inscryption.sigils.Snip",
+    "nevernamed.inscryption.sigils.Deadbeat"
   ],
   "modPrefix": "HS",
   "name": "HS_die",
@@ -21,11 +22,14 @@
   "pixelTexture": "card_HS_die_pixelTexture.png",
   "temple": "Nature",
   "metaCategories": [
-    "Rare",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
     "GBCPlayable"
   ],
-  "appearanceBehaviour": [
-    "RareCardBackground"
-  ],
-  "cardComplexity": "Simple"
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_die_emissionTexture.png"
 }

@@ -7,7 +7,7 @@
   ],
   "baseAttack": 3,
   "baseHealth": 3,
-  "bloodCost": 2,
+  "bloodCost": 3,
   "bonesCost": 0,
   "traits": [],
   "abilities": [
@@ -28,5 +28,7 @@
     "GBCPlayable"
   ],
   "appearanceBehaviour": [],
-  "cardComplexity": "Simple"
+  "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_eridan_emissionTexture.png"
 }

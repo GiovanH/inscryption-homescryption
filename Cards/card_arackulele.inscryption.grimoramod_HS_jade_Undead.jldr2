@@ -8,7 +8,7 @@
   "bonesCost": 2,
   "traits": [],
   "abilities": [
-    "Flying"
+    "nevernamed.inscryption.sigils.Trained Flier"
   ],
   "modPrefix": "arackulele.inscryption.grimoramod_HS",
   "name": "arackulele.inscryption.grimoramod_HS_jade",
@@ -24,5 +24,7 @@
     "GBCPlayable"
   ],
   "appearanceBehaviour": [],
-  "cardComplexity": "Simple"
+  "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_jade_emissionTexture.png"
 }

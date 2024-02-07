@@ -25,5 +25,7 @@
     "RareCardBackground"
   ],
   "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_jack_emissionTexture.png",
   "energyCost": 3
 }

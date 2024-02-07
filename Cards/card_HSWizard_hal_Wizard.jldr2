@@ -1,5 +1,5 @@
 {
-  "displayedName": "Hal",
+  "displayedName": "Lil' Hal",
   "description": "",
   "tribes": [],
   "baseAttack": 2,
@@ -12,18 +12,21 @@
   ],
   "modPrefix": "HSWizard",
   "name": "HSWizard_hal",
-  "defaultEvolutionName": "God Hal",
+  "defaultEvolutionName": "God Lil' Hal",
   "texture": "card_HS_hal.png",
   "pixelTexture": "card_HS_hal_pixelTexture.png",
   "temple": "Wizard",
   "metaCategories": [
-    "Rare",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
     "GBCPlayable"
   ],
-  "appearanceBehaviour": [
-    "RareCardBackground"
-  ],
+  "appearanceBehaviour": [],
   "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_hal_emissionTexture.png",
   "gemsCost": [
     "Green"
   ]

@@ -2,13 +2,14 @@
   "displayedName": "Jude",
   "description": "",
   "tribes": [],
-  "baseAttack": 4,
+  "baseAttack": 0,
   "baseHealth": 2,
   "bloodCost": 0,
   "bonesCost": 0,
   "traits": [],
   "abilities": [
-    "Reach"
+    "Reach",
+    "nevernamed.inscryption.sigils.Eager"
   ],
   "modPrefix": "HSTech",
   "name": "HSTech_jude",
@@ -25,5 +26,7 @@
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple",
-  "energyCost": 3
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_jude_emissionTexture.png",
+  "energyCost": 2
 }

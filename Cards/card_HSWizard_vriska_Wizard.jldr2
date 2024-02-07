@@ -11,7 +11,7 @@
   ],
   "abilities": [
     "nevernamed.inscryption.sigils.Tempting Target",
-    "nevernamed.inscryption.sigils.Thief"
+    "nevernamed.inscryption.sigils.Spiders Web"
   ],
   "modPrefix": "HSWizard",
   "name": "HSWizard_vriska",
@@ -28,6 +28,8 @@
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_vriska_emissionTexture.png",
   "gemsCost": [
     "Orange"
   ]

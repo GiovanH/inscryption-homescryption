@@ -11,7 +11,7 @@
   ],
   "abilities": [
     "nevernamed.inscryption.sigils.Tempting Target",
-    "nevernamed.inscryption.sigils.Thief"
+    "nevernamed.inscryption.sigils.Spiders Web"
   ],
   "modPrefix": "HSTech",
   "name": "HSTech_vriska",
@@ -28,5 +28,7 @@
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_vriska_emissionTexture.png",
   "energyCost": 3
 }

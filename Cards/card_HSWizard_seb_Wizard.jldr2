@@ -2,8 +2,8 @@
   "displayedName": "Lil' Seb",
   "description": "A little buddy.",
   "tribes": [],
-  "baseAttack": 2,
-  "baseHealth": 2,
+  "baseAttack": 1,
+  "baseHealth": 3,
   "bloodCost": 0,
   "bonesCost": 0,
   "traits": [
@@ -20,13 +20,18 @@
   "pixelTexture": "card_HS_seb_pixelTexture.png",
   "temple": "Wizard",
   "metaCategories": [
-    "Rare",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
     "GBCPlayable"
   ],
   "appearanceBehaviour": [
     "TerrainBackground"
   ],
   "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_seb_emissionTexture.png",
   "gemsCost": [
     "Green"
   ]

@@ -25,5 +25,7 @@
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple",
-  "energyCost": 3
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_karkat_emissionTexture.png",
+  "energyCost": 2
 }

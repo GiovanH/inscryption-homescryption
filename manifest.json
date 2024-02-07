@@ -1,7 +1,7 @@
 {
 	"name": "Homescrypt",
 	"version_number": "0.0.1",
-	"website_url": "TBD",
+	"website_url": "https://github.com/GiovanH/inscryption-homescryption",
 	"description": "Homestuck card pack for Inscryption",
     "dependencies": [
         "Infiniscryption-Pack_Management_API-1.1.7",

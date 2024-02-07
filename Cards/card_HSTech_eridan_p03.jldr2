@@ -26,5 +26,7 @@
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple",
-  "energyCost": 3
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_eridan_emissionTexture.png",
+  "energyCost": 4
 }

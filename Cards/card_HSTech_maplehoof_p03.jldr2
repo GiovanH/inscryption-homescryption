@@ -25,5 +25,7 @@
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple",
-  "energyCost": 3
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_maplehoof_emissionTexture.png",
+  "energyCost": 2
 }

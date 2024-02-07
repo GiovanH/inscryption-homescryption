@@ -2,10 +2,10 @@
   "displayedName": "Joey",
   "description": "",
   "tribes": [],
-  "baseAttack": 2,
-  "baseHealth": 4,
+  "baseAttack": 1,
+  "baseHealth": 2,
   "bloodCost": 0,
-  "bonesCost": 3,
+  "bonesCost": 2,
   "traits": [],
   "abilities": [
     "Tutor"
@@ -24,5 +24,7 @@
     "GBCPlayable"
   ],
   "appearanceBehaviour": [],
-  "cardComplexity": "Simple"
+  "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_joey_emissionTexture.png"
 }

@@ -17,15 +17,17 @@
   "pixelTexture": "card_HS_sawbuck_pixelTexture.png",
   "temple": "Wizard",
   "metaCategories": [
-    "Rare",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
     "GBCPlayable"
   ],
-  "appearanceBehaviour": [
-    "RareCardBackground"
-  ],
+  "appearanceBehaviour": [],
   "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_sawbuck_emissionTexture.png",
   "gemsCost": [
-    "Green",
-    "Orange"
+    "Green"
   ]
 }

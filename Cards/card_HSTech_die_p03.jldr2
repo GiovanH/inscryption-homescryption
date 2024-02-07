@@ -19,12 +19,15 @@
   "pixelTexture": "card_HS_die_pixelTexture.png",
   "temple": "Tech",
   "metaCategories": [
-    "Rare",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
     "GBCPlayable"
   ],
-  "appearanceBehaviour": [
-    "RareCardBackground"
-  ],
+  "appearanceBehaviour": [],
   "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_die_emissionTexture.png",
   "energyCost": 7
 }

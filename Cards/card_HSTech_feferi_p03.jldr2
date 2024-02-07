@@ -3,7 +3,7 @@
   "description": "The better fish.",
   "tribes": [],
   "baseAttack": 1,
-  "baseHealth": 4,
+  "baseHealth": 2,
   "bloodCost": 0,
   "bonesCost": 0,
   "traits": [],
@@ -26,6 +26,8 @@
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_feferi_emissionTexture.png",
   "energyCost": 4,
   "evolveIntoName": "HS_condesce"
 }

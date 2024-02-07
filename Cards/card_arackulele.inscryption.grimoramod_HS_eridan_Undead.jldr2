@@ -5,7 +5,7 @@
   "baseAttack": 3,
   "baseHealth": 3,
   "bloodCost": 0,
-  "bonesCost": 3,
+  "bonesCost": 4,
   "traits": [],
   "abilities": [
     "nevernamed.inscryption.sigils.Piercing",
@@ -25,5 +25,7 @@
     "GBCPlayable"
   ],
   "appearanceBehaviour": [],
-  "cardComplexity": "Simple"
+  "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_eridan_emissionTexture.png"
 }

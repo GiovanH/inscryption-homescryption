@@ -12,7 +12,7 @@
   "bonesCost": 0,
   "traits": [],
   "abilities": [
-    "Flying"
+    "nevernamed.inscryption.sigils.Trained Flier"
   ],
   "modPrefix": "HS",
   "name": "HS_jade",
@@ -28,5 +28,7 @@
     "GBCPlayable"
   ],
   "appearanceBehaviour": [],
-  "cardComplexity": "Simple"
+  "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_jade_emissionTexture.png"
 }

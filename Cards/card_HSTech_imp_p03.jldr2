@@ -8,7 +8,7 @@
   "bonesCost": 0,
   "traits": [],
   "abilities": [
-    "nevernamed.inscryption.sigils.Sigil Mimic"
+    "nevernamed.inscryption.sigils.Upgrade Subroutine"
   ],
   "modPrefix": "HSTech",
   "name": "HSTech_imp",
@@ -17,9 +17,9 @@
   "pixelTexture": "card_HS_imp_pixelTexture.png",
   "temple": "Tech",
   "metaCategories": [],
-  "appearanceBehaviour": [
-    "RareCardBackground"
-  ],
+  "appearanceBehaviour": [],
   "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_imp_emissionTexture.png",
   "energyCost": 1
 }

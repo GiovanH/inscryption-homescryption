@@ -8,7 +8,7 @@
   "bonesCost": 2,
   "traits": [],
   "abilities": [
-    "nevernamed.inscryption.sigils.Inspiring Sacrifice"
+    "HS.Sprite"
   ],
   "modPrefix": "arackulele.inscryption.grimoramod_HS",
   "name": "arackulele.inscryption.grimoramod_HS_sprite",
@@ -23,5 +23,7 @@
   "appearanceBehaviour": [
     "RareCardBackground"
   ],
-  "cardComplexity": "Simple"
+  "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_sprite_emissionTexture.png"
 }

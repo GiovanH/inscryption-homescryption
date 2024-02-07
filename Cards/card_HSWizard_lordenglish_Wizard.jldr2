@@ -2,7 +2,7 @@
   "displayedName": "Lord English",
   "description": "The eight-ball.",
   "tribes": [],
-  "baseAttack": 2,
+  "baseAttack": 4,
   "baseHealth": 8,
   "bloodCost": 0,
   "bonesCost": 0,
@@ -22,6 +22,8 @@
     "GoldEmission"
   ],
   "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_lordenglish_emissionTexture.png",
   "gemsCost": [
     "Green",
     "Orange"

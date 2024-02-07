@@ -3,7 +3,7 @@
   "description": "",
   "tribes": [],
   "baseAttack": 0,
-  "baseHealth": 11,
+  "baseHealth": 5,
   "bloodCost": 0,
   "bonesCost": 8,
   "traits": [
@@ -11,7 +11,7 @@
     "DeathcardCreationNonOption"
   ],
   "abilities": [
-    "PreventAttack"
+    "nevernamed.inscryption.sigils.Eternal"
   ],
   "modPrefix": "HS",
   "name": "HS_calliope",
@@ -29,5 +29,6 @@
   "cardComplexity": "Simple",
   "extensionProperties": {
     "BannedSigilTransferVictim": "true"
-  }
+  },
+  "emissionTexture": "card_HS_calliope_emissionTexture.png"
 }

@@ -1,6 +1,6 @@
 {
   "displayedName": "Sollux",
-  "description": "A powerful psychic. But you just get bees.",
+  "description": "The herald of double death.",
   "tribes": [],
   "baseAttack": 1,
   "baseHealth": 2,
@@ -8,7 +8,7 @@
   "bonesCost": 0,
   "traits": [],
   "abilities": [
-    "BeesOnHit",
+    "nevernamed.inscryption.sigils.Switch Strike",
     "DoubleDeath"
   ],
   "modPrefix": "HSWizard",
@@ -26,7 +26,10 @@
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_sollux_emissionTexture.png",
   "gemsCost": [
+    "Blue",
     "Orange"
   ]
 }

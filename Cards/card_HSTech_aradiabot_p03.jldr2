@@ -2,7 +2,7 @@
   "displayedName": "Aradiabot",
   "description": "",
   "tribes": [],
-  "baseAttack": 1,
+  "baseAttack": 2,
   "baseHealth": 1,
   "bloodCost": 0,
   "bonesCost": 0,
@@ -27,5 +27,7 @@
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple",
-  "energyCost": 4
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_aradiabot_emissionTexture.png",
+  "energyCost": 3
 }

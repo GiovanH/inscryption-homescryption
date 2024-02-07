@@ -17,13 +17,16 @@
   "pixelTexture": "card_HS_crowbar_pixelTexture.png",
   "temple": "Wizard",
   "metaCategories": [
-    "Rare",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
     "GBCPlayable"
   ],
-  "appearanceBehaviour": [
-    "RareCardBackground"
-  ],
+  "appearanceBehaviour": [],
   "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_crowbar_emissionTexture.png",
   "gemsCost": [
     "Green"
   ]

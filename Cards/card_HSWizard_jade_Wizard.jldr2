@@ -8,7 +8,7 @@
   "bonesCost": 0,
   "traits": [],
   "abilities": [
-    "Flying"
+    "nevernamed.inscryption.sigils.Trained Flier"
   ],
   "modPrefix": "HSWizard",
   "name": "HSWizard_jade",
@@ -25,6 +25,8 @@
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_jade_emissionTexture.png",
   "gemsCost": [
     "Orange"
   ]

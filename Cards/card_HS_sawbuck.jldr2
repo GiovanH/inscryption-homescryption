@@ -6,7 +6,7 @@
   ],
   "baseAttack": 0,
   "baseHealth": 3,
-  "bloodCost": 3,
+  "bloodCost": 2,
   "bonesCost": 0,
   "traits": [],
   "abilities": [
@@ -19,11 +19,14 @@
   "pixelTexture": "card_HS_sawbuck_pixelTexture.png",
   "temple": "Nature",
   "metaCategories": [
-    "Rare",
+    "ChoiceNode",
+    "Part3Random",
+    "TraderOffer",
+    "GBCPack",
     "GBCPlayable"
   ],
-  "appearanceBehaviour": [
-    "RareCardBackground"
-  ],
-  "cardComplexity": "Simple"
+  "appearanceBehaviour": [],
+  "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_sawbuck_emissionTexture.png"
 }

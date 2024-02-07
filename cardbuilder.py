@@ -13,8 +13,8 @@ import shutil
 import jsonschema
 import subprocess
 
-csv_path = "./cards.csv"
 MOD_PREFIX = "HS"
+csv_path = f"./{MOD_PREFIX}_cards.csv"
 
 RECREATE_CSV = False
 
@@ -99,6 +99,8 @@ def main():
 
     for card_csv_row in card_csv_rows:
         card_def = rowToCardDef(card_csv_row.copy())
+        if not card_def:
+            continue
         name = card_def['name']
 
         if name == f"{MOD_PREFIX}_":
@@ -107,7 +109,7 @@ def main():
         art_path = os.path.join('Artwork', card_def['texture'])
         maybeWriteBlankImage(art_path, '114x94')
 
-        art_path_gbc = os.path.join('Artwork', card_def['pixelTexture'])
+        art_path_gbc = os.path.join('DerivedArtwork', card_def['pixelTexture'])
         if not os.path.isfile(art_path_gbc):
             print("Resizing for", art_path_gbc)
             subprocess.run([
@@ -126,8 +128,12 @@ def main():
                 starter_decks[deck_tuple].append(card_def['name'])
 
             if WRITE_DEBUG_PACKS:
-                deck_tuple = ("HS_TEST", card_def['temple'])
-                starter_decks[deck_tuple].append(card_def['name'])
+                if 'RareCardBackground' in card_def['appearanceBehaviour']:
+                    deck_tuple = (f"{MOD_PREFIX}_TEST_RARES", card_def['temple'])
+                    starter_decks[deck_tuple].append(card_def['name'])
+                else:
+                    deck_tuple = (f"{MOD_PREFIX}_TEST", card_def['temple'])
+                    starter_decks[deck_tuple].append(card_def['name'])
 
             out_path = f"Cards/card_{card_def['name']}{postfix}.jldr2"
             os.makedirs(f"Cards/", exist_ok=True)
@@ -158,9 +164,20 @@ def main():
         "decks": []
     }
     for (deck_name, deck_temple), card_list in starter_decks.items():
-        iconTexture = f"starter_{deck_name}.png"
+        iconTexture = f"starter_{deck_temple}_{deck_name}.png"
 
-        maybeWriteBlankImage(os.path.join('Artwork', iconTexture), '35x44')
+        iconTextureBase = f"starter_{deck_name}.png"
+        maybeWriteBlankImage(os.path.join('Artwork', iconTextureBase), '35x44')
+
+        if not os.path.isfile(iconTexture):
+            print("Writing layered", iconTexture)
+            subprocess.run([
+                'magick', 'composite',
+                '-gravity', 'center',
+                os.path.join('Artwork', f"starter_frag_{deck_temple}.png"),
+                os.path.join('Artwork', iconTextureBase),
+                os.path.join('DerivedArtwork', iconTexture)
+            ])
 
         decks_def['decks'].append({
             "name": f"{deck_name}_{deck_temple}",
@@ -168,7 +185,7 @@ def main():
             "iconTexture": iconTexture
         })
 
-    out_path = f"hs_kcmstarters_deck.jldr2"
+    out_path = f"kcmstarters_deck.jldr2"
     print("Writing", out_path)
     try:
         jsonschema.validate(decks_def, schema=json_deck_schema)
@@ -179,6 +196,12 @@ def main():
 
 def rowToCardDef(card_csv_row, temple="Nature", transform_energy=False):
     rel_name = card_csv_row.pop('rel_name')
+
+    if not rel_name:
+        return
+
+    card_csv_row.pop('!artsource')
+
     mod_prefix = (f"{MOD_PREFIX}{temple}" if temple != "Nature" else MOD_PREFIX)
 
     if temple == "Undead":
@@ -219,13 +242,20 @@ def rowToCardDef(card_csv_row, temple="Nature", transform_energy=False):
         "appearanceBehaviour": [
             # "bitty45.inscryption.sigils.UndeadAppearance"
         ],
-        "cardComplexity": "Simple"
+        "cardComplexity": "Simple",
+        "extensionProperties": {}
     }
 
     emission_path = f"card_{MOD_PREFIX}_{rel_name}_emissionTexture.png"
     if os.path.isfile(f"./Artwork/{emission_path}"):
         card_def['emissionTexture'] = emission_path
     else:
+        not_emission_path = f"./Artwork/card_{MOD_PREFIX}_{rel_name}_emissiveTexture.png"
+        if os.path.isfile(not_emission_path):
+            print(f"{not_emission_path!r} isn't the path for an emissionTexture! you piece of shit! go to hell!")
+            # safe, because not isfile emission_path
+            shutil.move(not_emission_path, f"./Artwork/{emission_path}")
+
         # print("No emissionTexture", emission_path)
         pass
 
@@ -259,6 +289,12 @@ def rowToCardDef(card_csv_row, temple="Nature", transform_energy=False):
         card_def['abilities'] = advanced_abilities or card_def['abilities']
     else:
         advanced_abilities
+
+    # card_def['extensionProperties']['computed_power'] = card_def.get('baseHealth', 0) + (2*card_def.get('baseAttack', 0))
+    # card_def['extensionProperties']['computed_cost'] = card_def.get('bonesCost', 0) + (2*card_def.get('bloodCost', 0))
+
+    # if temple == "Nature":
+    #     print(name, card_def['extensionProperties']['computed_power'], card_def['extensionProperties']['computed_cost'], sep='\t')
 
     # Costs
     if temple == 'Tech':

@@ -1,0 +1,43 @@
+{
+  "name": "Sprite",
+  "GUID": "HS",
+  "description": "When you sacrifice this card, its sigils are permanently transfered to its replacement.",
+  "metaCategories": [
+    "Part1Rulebook",
+    "Part3Rulebook"
+  ],
+  "powerLevel": 8,
+  "texture": "sigil_HS_sprite.png",
+  "abilityBehaviour": [
+    {
+      "trigger": {
+        "triggerType": "OnSacrifice"
+      },
+      "buffCards": [
+        {
+          "targetCard": "([SacrificeTargetCard])",
+          "addAbilities": [
+            {
+              "list": "([BaseCard.AllAbilities])",
+              "infused": true
+            }
+          ]
+        },
+        {
+          "targetCard": "([SacrificeTargetCard])",
+          "removeAbilities": [
+            {
+              "name": "HS.Sprite"
+            }
+          ]
+        }
+      ],
+      "changeAppearance": [
+        {
+          "targetCard": "([SacrificeTargetCard])",
+          "changeName": "([SacrificeTargetCard.Name])sprite"
+        }
+      ]
+    }
+  ]
+}

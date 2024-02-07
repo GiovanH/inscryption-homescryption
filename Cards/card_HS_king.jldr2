@@ -2,8 +2,8 @@
   "displayedName": "The King",
   "description": "",
   "tribes": [],
-  "baseAttack": 3,
-  "baseHealth": 4,
+  "baseAttack": 5,
+  "baseHealth": 1,
   "bloodCost": 2,
   "bonesCost": 0,
   "traits": [],
@@ -24,5 +24,7 @@
   "appearanceBehaviour": [
     "RareCardBackground"
   ],
-  "cardComplexity": "Simple"
+  "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_king_emissionTexture.png"
 }

@@ -7,7 +7,7 @@
     "Hooved"
   ],
   "baseAttack": 5,
-  "baseHealth": 2,
+  "baseHealth": 3,
   "bloodCost": 3,
   "bonesCost": 0,
   "traits": [],
@@ -26,5 +26,7 @@
     "GBCPlayable"
   ],
   "appearanceBehaviour": [],
-  "cardComplexity": "Simple"
+  "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_equius_emissionTexture.png"
 }

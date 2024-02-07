@@ -3,7 +3,7 @@
   "description": "",
   "tribes": [],
   "baseAttack": 0,
-  "baseHealth": 11,
+  "baseHealth": 5,
   "bloodCost": 0,
   "bonesCost": 0,
   "traits": [
@@ -11,7 +11,7 @@
     "DeathcardCreationNonOption"
   ],
   "abilities": [
-    "PreventAttack"
+    "nevernamed.inscryption.sigils.Eternal"
   ],
   "modPrefix": "HSTech",
   "name": "HSTech_calliope",
@@ -27,8 +27,9 @@
     "RareCardBackground"
   ],
   "cardComplexity": "Simple",
-  "energyCost": 9,
   "extensionProperties": {
     "BannedSigilTransferVictim": "true"
-  }
+  },
+  "emissionTexture": "card_HS_calliope_emissionTexture.png",
+  "energyCost": 9
 }

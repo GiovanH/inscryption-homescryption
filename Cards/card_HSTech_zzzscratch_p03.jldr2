@@ -1,0 +1,38 @@
+{
+  "displayedName": "Doc Scratch",
+  "description": "A harbinger.",
+  "tribes": [],
+  "baseAttack": 1,
+  "baseHealth": 2,
+  "bloodCost": 0,
+  "bonesCost": 0,
+  "traits": [
+    "Goat",
+    "SatisfiesRingTrial"
+  ],
+  "abilities": [
+    "IceCube",
+    "nevernamed.inscryption.sigils.Abstain"
+  ],
+  "modPrefix": "HSTech",
+  "name": "HSTech_zzzscratch",
+  "defaultEvolutionName": "God Doc Scratch",
+  "texture": "card_HS_zzzscratch.png",
+  "pixelTexture": "card_HS_zzzscratch_pixelTexture.png",
+  "temple": "Tech",
+  "metaCategories": [
+    "Rare",
+    "GBCPlayable"
+  ],
+  "appearanceBehaviour": [
+    "RareCardBackground",
+    "spapi.inscryption.configemissions.ConfigurableStatColors"
+  ],
+  "cardComplexity": "Simple",
+  "extensionProperties": {
+    "customPortraitColorHEX": "#FFFFFF"
+  },
+  "energyCost": 4,
+  "emissionTexture": "card_HS_scratch.png",
+  "iceCubeName": "HS_lordenglish"
+}

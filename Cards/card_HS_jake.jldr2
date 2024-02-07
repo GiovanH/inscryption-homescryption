@@ -11,6 +11,7 @@
   "bonesCost": 0,
   "traits": [],
   "abilities": [
+    "DoubleStrike",
     "GuardDog"
   ],
   "modPrefix": "HS",
@@ -27,5 +28,7 @@
     "GBCPlayable"
   ],
   "appearanceBehaviour": [],
-  "cardComplexity": "Simple"
+  "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_jake_emissionTexture.png"
 }

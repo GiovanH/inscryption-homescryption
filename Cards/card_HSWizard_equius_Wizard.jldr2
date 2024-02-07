@@ -3,7 +3,7 @@
   "description": "",
   "tribes": [],
   "baseAttack": 5,
-  "baseHealth": 2,
+  "baseHealth": 3,
   "bloodCost": 0,
   "bonesCost": 0,
   "traits": [],
@@ -23,6 +23,8 @@
   ],
   "appearanceBehaviour": [],
   "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_equius_emissionTexture.png",
   "gemsCost": [
     "Green",
     "Orange"

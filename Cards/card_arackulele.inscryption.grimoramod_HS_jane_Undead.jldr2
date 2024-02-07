@@ -3,7 +3,7 @@
   "description": "A perfect cake every time you bake.",
   "tribes": [],
   "baseAttack": 1,
-  "baseHealth": 3,
+  "baseHealth": 4,
   "bloodCost": 0,
   "bonesCost": 3,
   "traits": [],
@@ -24,5 +24,7 @@
     "GBCPlayable"
   ],
   "appearanceBehaviour": [],
-  "cardComplexity": "Simple"
+  "cardComplexity": "Simple",
+  "extensionProperties": {},
+  "emissionTexture": "card_HS_jane_emissionTexture.png"
 }
