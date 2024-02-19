@@ -1,13 +1,12 @@
 {
 	"name": "Homescrypt",
-	"version_number": "0.0.1",
+	"version_number": "0.0.2",
 	"website_url": "https://github.com/GiovanH/inscryption-homescryption",
 	"description": "Homestuck card pack for Inscryption",
     "dependencies": [
         "Infiniscryption-Pack_Management_API-1.1.7",
         "MADH95Mods-JSONCardLoader-2.2.0",
         "Nevernamed-Nevernameds_Sigilarium-1.14.1",
-        "bitty45-BittysSigils-2.1.2",
         "SpecialAPI-Configurable_Emissions_and_Backgrounds-1.0.0"
     ]
 }
