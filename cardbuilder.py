@@ -18,7 +18,7 @@ csv_path = f"./{MOD_PREFIX}_cards.csv"
 
 RECREATE_CSV = False
 
-WRITE_DEBUG_PACKS = True
+WRITE_DEBUG_PACKS = False
 
 TRIBE_TO_GEM = {
     "HS.Kid": "Green",

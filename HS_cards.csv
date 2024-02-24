@@ -1,51 +1,51 @@
 rel_name,displayedName,description,!artsource,tribes,baseAttack,baseHealth,bloodCost,bonesCost,rare,hidden,decks,traits,abilities,p03_abilities,exjson
-john,John,As default as it gets.,cursedkendoll,"HS.Kid,HS.Prospit",1,1,1,,,,Betas,,Evolve,,"{""evolveIntoName"": ""HS_john_june"", ""evolveTurns"": 1}"
+john,John,As default as it gets.,<https://twitter.com/cursedkendoll>,"HS.Kid,HS.Prospit",1,1,1,,,,Betas,,Evolve,,"{""evolveIntoName"": ""HS_john_june"", ""evolveTurns"": 1}"
 john_june,June,,<https://carcinocasino.tumblr.com>,"HS.Kid,HS.Prospit",2,3,2,,,TRUE,,,,,
 jade,Jade,You can't pin her down.,<https://twitter.com/babyfawnlegs>,"HS.Kid,HS.Prospit,Canine",2,1,1,,,,Betas,,NN.Trained Flier,,
-dave,Dave,Dead Daves can be your friend.,clambuoyance,"HS.Kid,HS.Derse",2,2,2,,,,Betas,,TailOnHit,,"{""tailName"": ""HS_dave_tail"", ""tailLostPortrait"": ""card_HS_dave_tail.png""}"
+dave,Dave,Dead Daves can be your friend.,<https://twitter.com/clambuoyance>,"HS.Kid,HS.Derse",2,2,2,,,,Betas,,TailOnHit,,"{""tailName"": ""HS_dave_tail"", ""tailLostPortrait"": ""card_HS_dave_tail.png""}"
 dave_tail,Doomed Dave,,TODO,"HS.Kid,HS.Derse",2,2,2,,,TRUE,,,"DeathShield,Brittle",,
-rose,Rose,Watch for the quills on this one.,cometjynx,"HS.Kid,HS.Derse",1,2,,3,,,Betas,,Sharp,"Sharp,GainGemTriple",
+rose,Rose,Watch for the quills on this one.,<https://twitter.com/cometjynx>,"HS.Kid,HS.Derse",1,2,,3,,,Betas,,Sharp,"Sharp,GainGemTriple",
 ,,,,,,,,,,,,,,,
-dirk,Dirk,Can't keep him down.,clambuoyance,"HS.Kid,HS.Derse",2,1,1,,,,Alphas,,DrawCopyOnDeath,,
+dirk,Dirk,Can't keep him down.,<https://twitter.com/clambuoyance>,"HS.Kid,HS.Derse",2,1,1,,,,Alphas,,DrawCopyOnDeath,,
 roxy,Roxy,A sharp shooter.,https://www.deviantart.com/falthiere,"HS.Kid,HS.Derse",2,1,2,,,,Alphas,,Sniper,"Sniper,NN.Magitech",
-jane,Jane,A perfect cake every time you bake.,<http://omnia-volo.tumblr.com/>,"HS.Kid,HS.Prospit",1,4,2,,,,Alphas,,Morsel,ConduitHeal,
+jane,Jane,A perfect cake every time you bake.,<http://omnia-volo.tumblr.com/>,"HS.Kid,HS.Prospit",1,3,2,,,,Alphas,,Morsel,ConduitHeal,
 jake,Jake,"Hero, or joke?",jake english_1486371,"HS.Kid,HS.Prospit",1,2,1,,,,Alphas,,"DoubleStrike,GuardDog",,
 ,,,,,,,,,,,,,,,
 joey,Joey,,,HS.Kid,1,2,1,,,,,,Tutor,,
 jude,Jude,,,HS.Kid,0,2,1,,,,,,"Reach,NN.Eager",,
 ,,,,,,,,,,,,,,,
 aradia_young,Aradia,The archaeologist.,Unknown!,"HS.Troll,HS.Derse,Hooved",1,2,,3,,,BlueTeam,Goat,"BoneDigger,OpponentBones",,
-tavros,Tavros,Master of beasts.,PESTERQUEST,"HS.Troll,HS.Prospit,Hooved",1,1,,3,,,RedTeam,,NN.Squirrel King,NN.Summoner,
+tavros,Tavros,Master of beasts.,<https://strovi.neocities.org/>,"HS.Troll,HS.Prospit,Hooved",1,1,,3,,,RedTeam,,NN.Squirrel King,NN.Summoner,
 sollux,Sollux,The herald of double death.,LOST,"HS.Troll,HS.Derse,HS.Prospit",1,2,,4,,,BlueTeam,,"BeesOnHit,DoubleDeath","NN.Switch Strike,DoubleDeath",
 nepeta,Nepeta,What's better than a cat?,TODO,"HS.Troll,HS.Derse",1,1,1,,,,BlueTeam,,"Sacrificial,NN.Flighty","NN.Cute,NN.Flighty",
-karkat,Karkat,"Friend, leader.",https://twitter.com/defunkt_ego,"HS.Troll,HS.Prospit",1,2,1,,,,RedTeam,,"TripleBlood,BuffNeighbours",ConduitBuffAttack,
+karkat,Karkat,"Friend, leader.",<https://twitter.com/defunkt_ego>,"HS.Troll,HS.Prospit",1,2,1,,,,RedTeam,,"TripleBlood,BuffNeighbours",ConduitBuffAttack,
 kanaya,Kanaya,,itsYerm,"HS.Troll,HS.Prospit",2,3,2,,,,RedTeam,,"NN.Bandage Weaver,NN.Vampiric","NN.Stim Conduit,NN.Vampiric",
 terezi,Terezi,,<http://ravenswaggered.deviantart.com/>,"HS.Troll,HS.Prospit",2,3,2,,,,RedTeam,,NN.Flip,,
 vriska,Vriska,The center of attention.,lichenfiend,"HS.Troll,HS.Prospit,NN.Arachnid",3,3,2,,,,RedTeam,KillsSurvivors,"NN.Tempting Target,NN.Web","NN.Tempting Target,NN.Spiders Web",
 equius,Equius,,TODO,"HS.Troll,HS.Prospit,Hooved",5,3,3,,,,BlueTeam,,,,
-gamzee,Gamzee,"A wildcard, this one.",VRISKAGRAM,"HS.Troll,HS.Derse",1,2,2,,,,RedTeam,,"RandomAbility,GainAttackOnKill",,
+gamzee,Gamzee,"A wildcard, this one.",<https://www.instagram.com/p/1y8iIsRnff/>,"HS.Troll,HS.Derse",1,2,2,,,,RedTeam,,"RandomAbility,GainAttackOnKill",,
 eridan,Eridan,The worse fish.,Unknown!,"HS.Troll,HS.Derse",3,3,3,,,,BlueTeam,,"NN.Piercing,Submerge","NN.Antimagic,Submerge",
-feferi,Feferi,The better fish.,TODO,"HS.Troll,HS.Derse",1,2,3,,,,BlueTeam,,"TriStrike,Submerge",,"{""evolveIntoName"": ""HS_condesce""}"
+feferi,Feferi,The better fish.,TODO,"HS.Troll,HS.Derse",2,1,2,,,,BlueTeam,,"TriStrike,Submerge",,"{""evolveIntoName"": ""HS_condesce""}"
 ,,,,,,,,,,,,,,,
-aradiabot,Aradiabot,,Hussie,"HS.Troll,HS.Derse",2,1,,2,,,,Goat,NN.Phantasmic,,
-maplehoof,Maplehoof,,Hussie,Hooved,1,4,1,,,,,,Strafe,,
-scalemate,Scalemate,,Hussie,,0,2,,,,TRUE,,Pelt,,,"{""appearanceBehaviour"": [""TerrainBackground""]}"
-lilcal,Lil' Cal,,Hussie,HS.Felt,0,2,1,,,,,"Pelt,KillsSurvivors","NN.Coward,DrawCopyOnDeath",,"{""appearanceBehaviour"": [""TerrainBackground""], ""iceCubeName"": ""HS_lordenglish"", ""evolveIntoName"": ""HS_lordenglish""}"
-hal,Lil' Hal,,dirkdialectic,,2,2,2,,,,,,NN.Sturdy,,
-seb,Lil' Seb,A little buddy.,Hussie,,1,3,1,,,,,Pelt,"Strafe,RandomConsumable",,"{""appearanceBehaviour"": [""TerrainBackground""]}"
+aradiabot,Aradiabot,,,"HS.Troll,HS.Derse",2,1,,2,,,,Goat,NN.Phantasmic,,
+maplehoof,Maplehoof,,,Hooved,1,4,1,,,,,,Strafe,,
+scalemate,Scalemate,,,,0,2,,,,TRUE,,Pelt,,,"{""appearanceBehaviour"": [""TerrainBackground""]}"
+lilcal,Lil' Cal,,,HS.Felt,0,2,1,,,,,"Pelt,KillsSurvivors","NN.Coward,DrawCopyOnDeath",,"{""appearanceBehaviour"": [""TerrainBackground""], ""iceCubeName"": ""HS_lordenglish"", ""evolveIntoName"": ""HS_lordenglish""}"
+hal,Lil' Hal,,<https://twitter.com/dirkdialectic>,,2,2,2,,,,,,NN.Sturdy,,
+seb,Lil' Seb,A little buddy.,,,1,3,1,,,,,Pelt,"Strafe,RandomConsumable",,"{""appearanceBehaviour"": [""TerrainBackground""]}"
 ,,,,,,,,,,,,,,,
 snowman,Snowman,"If you kill her, you destroy the universe.",MSPA,HS.Felt,2,2,,8,TRUE,,,"SatisfiesRingTrial,KillsSurvivors",NN.Annihilation,,
-zzzscratch,Doc Scratch,A harbinger.,Gio,HS.Felt,1,2,3,,TRUE,,,"Goat,SatisfiesRingTrial","IceCube,NN.Abstain",,"{""emissionTexture"": ""card_HS_scratch.png"", ""appearanceBehaviour"": [""RareCardBackground"", ""spapi.inscryption.configemissions.ConfigurableStatColors""], ""iceCubeName"": ""HS_lordenglish"", ""extensionProperties"": {""customPortraitColorHEX"": ""#FFFFFF""}}"
-lordenglish,Lord English,The eight-ball.,COLLIDE,HS.Felt,4,8,4,,TRUE,TRUE,,,"AllStrike,Deathtouch",,"{""appearanceBehaviour"": [""GoldEmission""]}"
+zzzscratch,Doc Scratch,A harbinger.,Gio,HS.Felt,1,2,3,,TRUE,,,"Goat,SatisfiesRingTrial","IceCube,NN.Abstain",,"{""emissionTexture"": ""card_HS_zzzscratch.png"", ""appearanceBehaviour"": [""RareCardBackground"", ""spapi.inscryption.configemissions.ConfigurableStatColors""], ""iceCubeName"": ""HS_lordenglish"", ""extensionProperties"": {""customPortraitColorHEX"": ""#FFFFFF""}}"
+lordenglish,Lord English,The eight-ball.,<https://homestuck.giovanh.com/homestuck/8087/>,HS.Felt,4,8,4,,TRUE,TRUE,,,"AllStrike,Deathtouch",,"{""appearanceBehaviour"": [""GoldEmission""]}"
 crowbar,Crowbar,,J.N. Wiedle,HS.Felt,2,2,2,,,,,,NN.Artistic License,,
 die,Die,,Gio,HS.Felt,2,2,,6,,,,KillsSurvivors,"NN.Snip,NN.Deadbeat",NN.Snip,
 mspaint,MS Paint,,indigonite0,HS.Felt,0,2,1,,,,,,NN.Blood Artist,,
-sawbuck,Sawbuck,,Hussie,HS.Felt,0,3,2,,,,,,NN.Snapshot,,
-clover,Clover,,Hussie,HS.Felt,1,2,1,,,,,,NN.Unlucky,,
+sawbuck,Sawbuck,,,HS.Felt,0,3,2,,,,,,NN.Snapshot,,
+clover,Clover,,,HS.Felt,1,2,1,,,,,,NN.Unlucky,,
 ,,,,,,,,,,,,,,,
-condesce,The Condesce,The unkillable sea-witch.,<https://litvac.tumblr.com>,HS.Troll,3,2,2,,TRUE,,,,"Submerge,DrawCopyOnDeath",,
-imp,Imp,,Hussie,,1,1,0,0,,TRUE,,,NN.Upgrade Subroutine,,
+condesce,The Condesce,The unkillable sea-witch.,<https://litvac.tumblr.com>,HS.Troll,3,2,3,,TRUE,,,,"TriStrike,DrawCopyOnDeath",,
+imp,Imp,,,,1,1,0,0,,TRUE,,,NN.Upgrade Subroutine,,
 jack,Jack,,TODO,,0,2,2,,TRUE,,,,"DoubleStrike,NN.Lonesome",,
-sprite,Sprite,Trades powers around like they're nothing.,Hussie,,0,2,1,,TRUE,,,,HS.Sprite,"RandomAbility,NN.Haunter",
-king,The King,,Hussie,,5,1,2,,TRUE,,,,"AllStrike,Brittle",,
+sprite,Sprite,Trades powers around like they're nothing.,,,0,2,1,,TRUE,,,,HS.Sprite,"RandomAbility,NN.Haunter",
+king,The King,,,,5,1,2,,TRUE,,,,"AllStrike,Brittle",,
 calliope,Calliope,,grimbarkjade,,0,5,,8,TRUE,,,"Terrain,DeathcardCreationNonOption",NN.Eternal,,"{""extensionProperties"": {""BannedSigilTransferVictim"": ""true""}}"

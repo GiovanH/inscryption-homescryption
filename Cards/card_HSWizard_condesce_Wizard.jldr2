@@ -8,7 +8,7 @@
   "bonesCost": 0,
   "traits": [],
   "abilities": [
-    "Submerge",
+    "TriStrike",
     "DrawCopyOnDeath"
   ],
   "modPrefix": "HSWizard",

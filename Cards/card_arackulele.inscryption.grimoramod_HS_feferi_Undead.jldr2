@@ -2,10 +2,10 @@
   "displayedName": "Feferi",
   "description": "The better fish.",
   "tribes": [],
-  "baseAttack": 1,
-  "baseHealth": 2,
+  "baseAttack": 2,
+  "baseHealth": 1,
   "bloodCost": 0,
-  "bonesCost": 4,
+  "bonesCost": 3,
   "traits": [],
   "abilities": [
     "TriStrike",

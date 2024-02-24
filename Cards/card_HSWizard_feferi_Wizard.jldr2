@@ -2,8 +2,8 @@
   "displayedName": "Feferi",
   "description": "The better fish.",
   "tribes": [],
-  "baseAttack": 1,
-  "baseHealth": 2,
+  "baseAttack": 2,
+  "baseHealth": 1,
   "bloodCost": 0,
   "bonesCost": 0,
   "traits": [],
@@ -29,8 +29,7 @@
   "extensionProperties": {},
   "emissionTexture": "card_HS_feferi_emissionTexture.png",
   "gemsCost": [
-    "Blue",
-    "Green"
+    "Blue"
   ],
   "evolveIntoName": "HS_condesce"
 }

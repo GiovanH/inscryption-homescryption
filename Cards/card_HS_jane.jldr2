@@ -6,7 +6,7 @@
     "HS.Prospit"
   ],
   "baseAttack": 1,
-  "baseHealth": 4,
+  "baseHealth": 3,
   "bloodCost": 2,
   "bonesCost": 0,
   "traits": [],

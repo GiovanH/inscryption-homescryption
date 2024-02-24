@@ -3,7 +3,7 @@
   "description": "A perfect cake every time you bake.",
   "tribes": [],
   "baseAttack": 1,
-  "baseHealth": 4,
+  "baseHealth": 3,
   "bloodCost": 0,
   "bonesCost": 3,
   "traits": [],
