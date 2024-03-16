@@ -7,7 +7,6 @@
 - Dirk: <https://twitter.com/clambuoyance>
 - Roxy: https://www.deviantart.com/falthiere
 - Jane: <http://omnia-volo.tumblr.com/>
-- Jake: jake english_1486371
 - Aradia: Unknown!
 - Tavros: <https://strovi.neocities.org/>
 - Sollux: LOST
