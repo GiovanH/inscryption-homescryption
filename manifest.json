@@ -1,6 +1,6 @@
 {
 	"name": "Homescrypt",
-	"version_number": "0.0.4",
+	"version_number": "0.0.5",
 	"website_url": "https://github.com/GiovanH/inscryption-homescryption",
 	"description": "Homestuck card pack for Inscryption",
     "dependencies": [
