@@ -7,6 +7,8 @@ It is designed to be played in Kaycee's mod alongside the default beast cards. V
 
 See the full table of cards and their stats in the [csv file](./HS_cards.csv).
 
+Note: Due to a bug in [Infiniscryption Pack Manager](https://github.com/divisionbyz0rro/Infiniscryption), some errors will be logged to console when the "pack art" is generated, complaining about `Parameter name: searchPattern`. This does not indicate a real problem!
+
 ## Previews
 
 ![](./readmeassets/20240219010539_1.jpg)
